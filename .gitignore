@@ -1,2 +1,10 @@
 secret_values.py
 __pycache__/secret_values.cpython-310.pyc
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

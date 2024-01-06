@@ -20,6 +20,8 @@ search_url = "https://api.bing.microsoft.com/v7.0/search"
 
 def if_misinfo(message):
     result = False
+    info_on_web = search_result(message)
+    
     return result 
 
 

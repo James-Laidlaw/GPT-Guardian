@@ -37,6 +37,7 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Dont do hate')
 
-    detect_hate.call_gpt(message)
+    gpt_key = secret_values.GPT_KEY
+    result = detect_hate.call_gpt(message, gpt_key)
 
 client.run(bot_token)

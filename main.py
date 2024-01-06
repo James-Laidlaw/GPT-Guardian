@@ -5,11 +5,9 @@ except ImportError:
 import os
 import discord
 import detect_hate
+import harmful_content
 from discord import app_commands
 
-
-import detect_hate
-from discord import app_commands
 
 #Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
 bot_token = os.environ.get("BOT_TOKEN", default=None)
@@ -32,22 +30,32 @@ async def on_ready():
 pic_ext = ('.png', '.jpg', '.jpeg') # image ext
 @client.event
 async def on_message(message):
-    if message.author == client.user: # check if message is from bot
+    if message.author == client.user: # ignore the bot responses
         return
-
+        
     if message.content.startswith('$hello'):
         await message.channel.send('Dont do hate')
-    
-
-    if message.content.endswith(pic_ext):
-        await message.channel.send('Image detected')
-    
-    if message.attachments[0]:
-         await message.channel.send('Image attachment detected')
-
-    gpt_key = secret_values.GPT_KEY
-    result = detect_hate.call_gpt(message, gpt_key)
 
     # image detection - harmful content
+    if message.attachments:
+        for attachment in message.attachments:
+            if attachment.content_type.startswith('image/'):
+                await message.channel.send('Image attachment detected')
+                #TODO: send image into harmful_content.py for processing
+                print("Attachment:", attachment)
+                # result = harmful_content.image_attachment_processing(attachment, gpt_key)
+                result = harmful_content.image_processing(attachment.url, gpt_key)
+
+            else:
+                print("Attachment is not of image type")
+
+    elif message.content.endswith(pic_ext):
+        await message.channel.send('Image detected')
+        #TODO: send image into harmful_content.py for processing
+        print("URL:", message.content)
+        result = harmful_content.image_processing(message.content, gpt_key)
+
+    else:
+        result = detect_hate.call_gpt(message, gpt_key)
 
 client.run(bot_token)

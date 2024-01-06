@@ -50,17 +50,21 @@ def gen_search_phrase(message):
         if chunk.choices[0].delta.content is not None:
             word = chunk.choices[0].delta.content 
             search_phrase += word
+    search_phrase = search_phrase.replace('"', '')
+    search_phrase = search_phrase.replace("'", '')
+
     return search_phrase
 
 
 def search_result(message):
     search_term = gen_search_phrase(message)
+    print(search_term)
     headers = {"Ocp-Apim-Subscription-Key": subscription_key}
     params = {"q": search_term, "textDecorations": True, "textFormat": "HTML"}
     response = requests.get(search_url, headers=headers, params=params)
     response.raise_for_status()
     search_results = response.json()
-
+    print(search_results)
     result_lst = []
     i = 0
     for v in search_results["webPages"]["value"]:
@@ -70,4 +74,4 @@ def search_result(message):
         result_lst.append((v["name"], v["snippet"]))
     return result_lst
 
-print(if_misinfo("trump already won the 2024 election"))
+# print(if_misinfo("TRUMP WON 2024 WOOO"))

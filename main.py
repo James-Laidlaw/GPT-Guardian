@@ -5,13 +5,15 @@ except ImportError:
 import os
 import discord
 import detect_hate
-from discord import app_commands
+from discord import app_commands, Interaction
+from discord.ext import commands
+from discord.ext.commands import Bot, Context
 
 
 import detect_hate
 from discord import app_commands
 
-#Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
+# Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
 bot_token = os.environ.get("BOT_TOKEN", default=None)
 if not bot_token:
     bot_token = secret_values.BOT_TOKEN
@@ -21,22 +23,52 @@ gpt_key = secret_values.GPT_KEY
 intents = discord.Intents.default()
 intents.message_content = True
 
-client = discord.Client(intents=intents)
-tree = app_commands.CommandTree(client) #tree is where slash commands are registered
+bot = commands.Bot(command_prefix="$", intents=intents)
 
-@client.event
+
+@bot.event
 async def on_ready():
-    await tree.sync()
-    print(f'We have logged in as {client.user}')
+    print(f"We have logged in as {bot.user}")
 
-@client.event
+
+@bot.event
 async def on_message(message):
-    if message.author == client.user:
+    if message.author == bot.user:
         return
-
-    if message.content.startswith('$hello'):
-        await message.channel.send('Dont do hate')
 
     detect_hate.call_gpt(message)
 
-client.run(bot_token)
+    await bot.process_commands(message)
+
+
+@bot.command()
+async def test(ctx):
+    await ctx.send("Hello world!")
+
+
+@bot.command()
+async def factcheck(ctx: Context):
+    # check if the message is a response
+    if not ctx.message.reference:
+        await ctx.send("Sorry, This command only works as a response to a message.")
+        return
+
+    if not ctx.message.reference.resolved or not ctx.message.reference.resolved.content:
+        await ctx.send("Sorry, I couldn't find the message you were replying to.")
+        return
+
+    if ctx.message.reference.resolved.author == bot.user:
+        await ctx.send("Sorry, I can't factcheck myself.")
+        return
+
+    # get the message that was replied to
+    replied_message = ctx.message.reference.resolved.content
+
+    # TODO: insert factchecking algorithm
+
+    await ctx.send(
+        "This is a placeholder, once the GPT API is ready, this will be the factcheck result."
+    )
+
+
+bot.run(bot_token)

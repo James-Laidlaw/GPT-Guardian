@@ -4,11 +4,14 @@ except ImportError:
     pass
 import os
 import discord
+import detect_hate
 
 bot_token = os.environ.get("BOT_TOKEN", default=None)
 
 if not bot_token:
     bot_token = secret_values.BOT_TOKEN
+
+gpt_key = secret_values.GPT_KEY
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -26,5 +29,7 @@ async def on_message(message):
 
     if message.content.startswith('$hello'):
         await message.channel.send('Dont do hate')
+
+    detect_hate.call_gpt(message)
 
 client.run(bot_token)

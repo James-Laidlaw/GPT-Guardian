@@ -28,6 +28,7 @@ tree = app_commands.CommandTree(client) #tree is where slash commands are regist
 async def on_ready():
     await tree.sync()
     print(f'We have logged in as {client.user}')
+    
 
 @client.event
 async def on_message(message):
@@ -39,5 +40,12 @@ async def on_message(message):
 
     gpt_key = secret_values.GPT_KEY
     result = detect_hate.call_gpt(message, gpt_key)
+    # if the result is hate speech, delete it
+    if result == 1:
+        await message.delete()
+        await message.channel.send("The prior message has been flagged as hate speech")
+        # add to the current count of flags for the user
+        # (perhaps add each user to a dict)
+
 
 client.run(bot_token)

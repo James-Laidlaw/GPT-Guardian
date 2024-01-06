@@ -28,6 +28,7 @@ def call_gpt(user_message, api_key):
     if chat_completion.choices[0].message.content == "2":
         return False # not hate speech
     else:
+        print(chat_completion.choices[0].message.content)
         return True  # hate speech
 
 

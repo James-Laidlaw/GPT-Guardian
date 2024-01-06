@@ -4,7 +4,7 @@ except ImportError:
     pass
 import os
 import discord
-import detect_hate
+from detect_hate import call_gpt
 from discord import app_commands, Interaction
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
@@ -37,7 +37,7 @@ async def on_message(message):
         return
 
     gpt_key = secret_values.GPT_KEY
-    result = detect_hate.call_gpt(message, gpt_key)
+    result = call_gpt(message, gpt_key)
     if result == False:
         # not hate speech
         pass

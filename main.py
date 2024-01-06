@@ -9,7 +9,7 @@ from discord import app_commands, Interaction
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
 
-
+from detect_misinfo import if_misinfo
 import detect_hate
 from discord import app_commands
 
@@ -35,7 +35,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == bot.user:
         return
-
 
     gpt_key = secret_values.GPT_KEY
     result = detect_hate.call_gpt(message, gpt_key)
@@ -72,11 +71,9 @@ async def factcheck(ctx: Context):
     # get the message that was replied to
     replied_message = ctx.message.reference.resolved.content
 
-    # TODO: insert factchecking algorithm
+    misinfo_res = if_misinfo(replied_message)
 
-    await ctx.send(
-        "This is a placeholder, once the GPT API is ready, this will be the factcheck result."
-    )
+    await ctx.send(misinfo_res)
 
 
 bot.run(bot_token)

@@ -1,6 +1,7 @@
 import openai
 from openai import OpenAI
 from profanity_check import predict, predict_prob
+from firebase_admin import db
 
 def pre_process(user_message):
     offensive_count = predict([user_message.content])
@@ -29,7 +30,14 @@ def call_gpt(user_message, api_key):
         return False # not hate speech
     else:
         print(chat_completion.choices[0].message.content)
+        # get the user who sent the message
+        track_users(user_message.username)
         return True  # hate speech
-
+        
+def track_users(username):
+    '''
+    if a user posted a hateful message, tag them and record their username
+    in a database. if they hit a certain threshold, ban then
+    '''
 
 

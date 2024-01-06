@@ -29,15 +29,25 @@ async def on_ready():
     await tree.sync()
     print(f'We have logged in as {client.user}')
 
+pic_ext = ('.png', '.jpg', '.jpeg') # image ext
 @client.event
 async def on_message(message):
-    if message.author == client.user:
+    if message.author == client.user: # check if message is from bot
         return
 
     if message.content.startswith('$hello'):
         await message.channel.send('Dont do hate')
+    
+
+    if message.content.endswith(pic_ext):
+        await message.channel.send('Image detected')
+    
+    if message.attachments[0]:
+         await message.channel.send('Image attachment detected')
 
     gpt_key = secret_values.GPT_KEY
     result = detect_hate.call_gpt(message, gpt_key)
+
+    # image detection - harmful content
 
 client.run(bot_token)

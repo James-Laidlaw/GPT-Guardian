@@ -19,9 +19,21 @@ search_url = "https://api.bing.microsoft.com/v7.0/search"
 
 
 def if_misinfo(message):
-    result = False
+    result = ""
+    search_phrase = gen_search_phrase(message)
     info_on_web = search_result(message)
-    
+    info_on_web = str(info_on_web)
+    prompt = f"given this search phrase: {search_phrase}\nand this results:{info_on_web},\n tell me if this message:{message} is misleading or ."
+    stream = gpt_client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": prompt}],
+        stream=True,
+    )
+
+    for chunk in stream:
+        if chunk.choices[0].delta.content is not None:
+            word = chunk.choices[0].delta.content 
+            result += word
     return result 
 
 
@@ -58,4 +70,4 @@ def search_result(message):
         result_lst.append((v["name"], v["snippet"]))
     return result_lst
 
-print(search_result("trump win the 2240 election"))
+print(if_misinfo("trump already won the 2024 election"))

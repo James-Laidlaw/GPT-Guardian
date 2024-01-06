@@ -36,8 +36,9 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    detect_hate.call_gpt(message)
 
+    gpt_key = secret_values.GPT_KEY
+    result = detect_hate.call_gpt(message, gpt_key)
     await bot.process_commands(message)
 
 

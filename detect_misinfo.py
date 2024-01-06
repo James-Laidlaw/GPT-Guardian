@@ -12,9 +12,6 @@ assert subscription_key
 search_url = "https://api.bing.microsoft.com/v7.0/search"
 
 
-
-
-
 # print(result_lst)
 
 
@@ -25,16 +22,16 @@ def if_misinfo(message):
     info_on_web = str(info_on_web)
     prompt = f"given this search phrase: {search_phrase}\nand this results:{info_on_web},\n tell me if this message:{message} is misleading or ."
     stream = gpt_client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-1106-preview",
         messages=[{"role": "user", "content": prompt}],
         stream=True,
     )
 
     for chunk in stream:
         if chunk.choices[0].delta.content is not None:
-            word = chunk.choices[0].delta.content 
+            word = chunk.choices[0].delta.content
             result += word
-    return result 
+    return result
 
 
 def gen_search_phrase(message):
@@ -42,16 +39,16 @@ def gen_search_phrase(message):
     new_message = "correct this sentence:" + new_message
     search_phrase = ""
     stream = gpt_client.chat.completions.create(
-        model='gpt-3.5-turbo',
+        model="gpt-4-1106-preview",
         messages=[{"role": "user", "content": new_message}],
         stream=True,
     )
     for chunk in stream:
         if chunk.choices[0].delta.content is not None:
-            word = chunk.choices[0].delta.content 
+            word = chunk.choices[0].delta.content
             search_phrase += word
-    search_phrase = search_phrase.replace('"', '')
-    search_phrase = search_phrase.replace("'", '')
+    search_phrase = search_phrase.replace('"', "")
+    search_phrase = search_phrase.replace("'", "")
 
     return search_phrase
 
@@ -73,5 +70,6 @@ def search_result(message):
         i += 1
         result_lst.append((v["name"], v["snippet"]))
     return result_lst
+
 
 # print(if_misinfo("TRUMP WON 2024 WOOO"))

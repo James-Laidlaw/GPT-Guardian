@@ -7,7 +7,13 @@ except ImportError:
     pass
 import os
 
-aai.settings.api_key = secret_values.AUDIO_KEY
+
+audio_key = os.environ.get("AUDIO_KEY", default=None)
+if not audio_key:
+    audio_key = secret_values.AUDIO_KEY
+
+aai.settings.api_key = audio_key
+
 gpt_key = os.environ.get("GPT_KEY", default=None)
 if not gpt_key:
     gpt_key = secret_values.GPT_KEY

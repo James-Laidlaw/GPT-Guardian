@@ -5,17 +5,12 @@ except ImportError:
 import os
 import discord
 from detect_hate import call_gpt
-from discord import app_commands, Interaction
 from discord.ext import commands
-from discord.ext.commands import Bot, Context
+from discord.ext.commands import Context
 from discord import Message
 
 from detect_misinfo import if_misinfo
-import detect_hate
-from discord import app_commands
-import detect_hate
 import harmful_content
-from discord import app_commands
 
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
@@ -103,6 +98,11 @@ async def strictness1(ctx):
     """
     most strict, filter all potentially offensive or hateful content
     """
+    user = ctx.author
+    if not user.guild_permissions.administrator:
+        await ctx.send("You do not have permission to use this command")
+        return
+
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
     if "Total_Filter" in role_names:
@@ -127,6 +127,10 @@ async def strictness2(ctx):
     """
     filter for anything hateful or harmful
     """
+    user = ctx.author
+    if not user.guild_permissions.administrator:
+        await ctx.send("You do not have permission to use this command")
+        return
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
     if "Harmful_Filter" in role_names:
@@ -148,6 +152,10 @@ async def strictness3(ctx):
     """
     Filter fully off
     """
+    user = ctx.author
+    if not user.guild_permissions.administrator:
+        await ctx.send("You do not have permission to use this command")
+        return
     try:
         role = discord.utils.get(ctx.guild.roles, name="Harmful_Filter")
         await ctx.guild.me.remove_roles(role)

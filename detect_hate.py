@@ -4,8 +4,6 @@ import time
 import demoji
 import main
 
-demoji.download_codes()
-
 
 def pre_process(user_message):
     offensive_count = predict([user_message.content])

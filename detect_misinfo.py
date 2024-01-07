@@ -85,6 +85,7 @@ def if_misinfo(message):
 
 
 def search_result(message):
+    print(message)
     # search_term = gen_search_phrase(message)
     # print(search_term)
     headers = {"Ocp-Apim-Subscription-Key": subscription_key}

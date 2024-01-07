@@ -8,9 +8,10 @@ from detect_hate import call_gpt
 from discord.ext import commands
 from discord.ext.commands import Context
 from discord import Message
-
+from utils import *
 from detect_misinfo import if_misinfo
 import harmful_content
+from audio_filter import *
 
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
@@ -51,12 +52,17 @@ async def on_message(message: Message):
 
     # image detection - harmful content
     if message.attachments:
-        print("has attachments")
         for attachment in message.attachments:
+            print(attachment.content_type)
             if attachment.content_type.startswith("image/"):
                 # await message.channel.send('Image attachment detected')
                 print("Attachment:", attachment)
                 result = harmful_content.image_processing(attachment.url, gpt_key)
+            elif attachment.content_type.startswith("audio/"):
+                # attachment is audio
+                print("Attachment:", attachment)
+                result = get_text(attachment.url)
+                result = process_info(result, get_bot_role(ctx))
             else:
                 print("Attachment is not of image type")
 
@@ -68,14 +74,15 @@ async def on_message(message: Message):
     else:
         # set filter level
         #ctx = await bot.get_context(message)
-        roles = ctx.guild.me.roles
-        role_names = [role.name for role in roles]
-        if "Total_Filter" in role_names:
-            role = "Total_Filter"
-        elif "Harmful_Filter" in role_names:
-            role = "Harmful_Filter"
-        else:
-            role = None
+        # roles = ctx.guild.me.roles
+        # role_names = [role.name for role in roles]
+        # if "Total_Filter" in role_names:
+        #     role = "Total_Filter"
+        # elif "Harmful_Filter" in role_names:
+        #     role = "Harmful_Filter"
+        # else:
+        #     role = None
+        role = get_bot_role(ctx)
 
         result = call_gpt(message, gpt_key, role)
 
@@ -178,8 +185,10 @@ async def factcheck(ctx: Context):
     if not ctx.message.reference:
         await ctx.send("Sorry, This command only works as a response to a message.")
         return
+    
+    print(ctx.message.reference.cached_message.attachments)
 
-    if not ctx.message.reference.resolved or not ctx.message.reference.resolved.content:
+    if not ((ctx.message.reference.resolved and ctx.message.reference.resolved.content) or ctx.message.reference.cached_message):
         await ctx.send("Sorry, I couldn't find the message you were replying to.")
         return
 
@@ -188,8 +197,16 @@ async def factcheck(ctx: Context):
         return
 
     # get the message that was replied to
-    replied_message = ctx.message.reference.resolved.content
-
+    if ctx.message.reference.cached_message.attachments: # there is attatchment in message
+       print("yes")
+       for attachment in ctx.message.reference.cached_message.attachments: 
+           if attachment.content_type.startswith("audio/"):
+                # attachment is audio
+                print("Attachment:", attachment)
+                replied_message = get_text(attachment.url)
+    else: # no attachment in message 
+        replied_message = ctx.message.reference.resolved.content
+    # replied_message = ctx.message.reference.resolved.content
     misinfo_res = if_misinfo(replied_message)
 
     await ctx.send(misinfo_res)

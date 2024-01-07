@@ -3,8 +3,6 @@ from openai import OpenAI
 # deal with image detection
 
 def image_processing(url, key):
-    print("FUCK my liFE",url)
-    print("KEY", key)
     client = OpenAI(api_key=key)
 
     response = client.chat.completions.create(

@@ -8,3 +8,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.pyc
+__pycache__/detect_hate.cpython-310.pyc

@@ -58,9 +58,9 @@ def gen_promp(url):
     rows = 2
     two_d_list = [[temp_lst[i * cols + j] for j in range(cols)] for i in range(rows)]
     final_result = concat_tile(two_d_list)
-    cv2.imshow("name", final_result)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow("name", final_result)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
     final_result = cv2.imencode('.jpg', final_result)[1]
     jpg_as_text = base64.b64encode(final_result).decode('utf-8')
     # f = open("test.txt", "a")

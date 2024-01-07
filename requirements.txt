@@ -42,7 +42,6 @@ msgpack==1.0.7
 multidict==6.0.4
 numpy==1.26.3
 openai==1.6.1
-opencv-python==4.9.0.80
 opencv-python-headless==4.9.0.80
 pillow==10.2.0
 proto-plus==1.23.0

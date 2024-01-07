@@ -2,7 +2,7 @@ from openai import OpenAI
 from profanity_check import predict, predict_prob
 import time
 import demoji
-import main
+import track_users
 
 
 def pre_process(user_message):
@@ -89,7 +89,7 @@ def call_gpt(user_message, api_key, role):
     else:
         print(last_msg)
         # get the user who sent the message
-        main.track_users(user_message.author.name)
+        track_users.track_users(user_message.author.name)
         return True  # hate speech
 
 

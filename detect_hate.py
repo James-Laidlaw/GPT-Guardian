@@ -1,7 +1,5 @@
-import openai
 from openai import OpenAI
 from profanity_check import predict, predict_prob
-from firebase_admin import db
 import time
 
 

@@ -2,6 +2,7 @@ from openai import OpenAI
 from profanity_check import predict, predict_prob
 import time
 import demoji
+import main
 
 demoji.download_codes()
 
@@ -90,13 +91,8 @@ def call_gpt(user_message, api_key, role):
     else:
         print(last_msg)
         # get the user who sent the message
-        # track_users(user_message.username)
+        main.track_users(user_message.author.name)
         return True  # hate speech
 
 
-def track_users(username):
-    """
-    if a user posted a hateful message, tag them and record their username
-    in a database. if they hit a certain threshold, ban then
-    """
-    pass
+

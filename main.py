@@ -36,7 +36,7 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-
+    
 
 @bot.event
 async def on_message(message: Message):
@@ -44,6 +44,15 @@ async def on_message(message: Message):
         return
 
     await bot.process_commands(message)
+    ctx = await bot.get_context(message)
+
+    # create a mod channel called 'flag_count' if it doesn't exist already
+    # keeps track of flagged responses 
+    existing_channel = discord.utils.get(ctx.guild.channels, name='flag-count')
+    if not existing_channel:
+        flag_count_channel = await ctx.guild.create_text_channel('flag-count')
+        print("flag-count channel created")
+
 
     # image detection - harmful content
     if message.attachments:
@@ -62,7 +71,7 @@ async def on_message(message: Message):
 
     else:
         # set filter level
-        ctx = await bot.get_context(message)
+        #ctx = await bot.get_context(message)
         roles = ctx.guild.me.roles
         role_names = [role.name for role in roles]
         if "Total_Filter" in role_names:
@@ -175,6 +184,17 @@ async def factcheck(ctx: Context):
     misinfo_res = if_misinfo(replied_message)
 
     await ctx.send(misinfo_res)
+
+def track_users(username):
+    """
+    if a user posted a hateful message, tag them and increment their
+    username in the channel 'flag-counts' for moderator usage
+    """
+    # todo: restrict this channel to admin only
+
+    print(username)
+    # 
+    pass
 
 
 bot.run(bot_token)

@@ -90,7 +90,7 @@ def call_gpt(user_message, api_key, role):
         print("good")
         return False  # not hate speech
     else:
-        print(last_msg)
+        #print(last_msg)
         # get the user who sent the message
         # track_users.track_users(user_message.author.name)
         return True  # hate speech

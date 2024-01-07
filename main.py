@@ -32,7 +32,7 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-    
+
 
 @bot.event
 async def on_message(message: Message):
@@ -43,12 +43,11 @@ async def on_message(message: Message):
     ctx = await bot.get_context(message)
 
     # create a mod channel called 'flag_count' if it doesn't exist already
-    # keeps track of flagged responses 
-    existing_channel = discord.utils.get(ctx.guild.channels, name='flag-count')
+    # keeps track of flagged responses
+    existing_channel = discord.utils.get(ctx.guild.channels, name="flag-count")
     if not existing_channel:
-        flag_count_channel = await ctx.guild.create_text_channel('flag-count')
+        flag_count_channel = await ctx.guild.create_text_channel("flag-count")
         print("flag-count channel created")
-
 
     # image detection - harmful content
     if message.attachments:
@@ -94,6 +93,32 @@ async def on_message(message: Message):
         await message.channel.send(
             "The prior message/image has been flagged for hate speech/harmful content"
         )
+        username_of_message_sent = message.author.name
+        print(f"username: {username_of_message_sent}")
+        # get all messages in flag-counts
+        channel = discord.utils.get(ctx.guild.text_channels, name="flag-count") # this is not getting the correct channel
+        if channel:
+            # split message by delimeter
+            async for message in channel.history():
+                index_of_delimiter = message.content.find(":")
+                username = message.content[0:index_of_delimiter]
+                count = message.content[index_of_delimiter+1]
+                if username == username_of_message_sent:
+                    print("username found in flag-counts")
+                    count = int(count)
+                    count += 1
+                    count = str(count)
+                    # rewrite current count
+                    updated_string = f"{username}:{count}"
+                    await message.edit(content=updated_string)
+                    return
+                
+             # person not in channel, write into channel (below!!!)
+            await channel.send(f"{username_of_message_sent}:1")
+
+        else:
+            print("channel does not exist")
+            
 
 
 @bot.command()
@@ -181,24 +206,30 @@ async def strictness3(ctx):
 
 @bot.command()
 async def factcheck(ctx: Context):
+    # indicate loading
+    loading_msg = await ctx.send(
+        "Checking... This may take a few seconds.", reference=ctx.message
+    )
+    factcheck_res = await check_fact(ctx)
+    await loading_msg.edit(content=factcheck_res)
+
+
+async def check_fact(ctx: Context) -> str:
     # check if the message is a response
     if not ctx.message.reference:
         await ctx.send("Sorry, This command only works as a response to a message.")
         return
     
-    print(ctx.message.reference.cached_message.attachments)
 
     if not ((ctx.message.reference.resolved and ctx.message.reference.resolved.content) or ctx.message.reference.cached_message):
         await ctx.send("Sorry, I couldn't find the message you were replying to.")
         return
 
     if ctx.message.reference.resolved.author == bot.user:
-        await ctx.send("Sorry, I can't factcheck myself.")
-        return
+        return "Sorry, I can't factcheck myself."
 
     # get the message that was replied to
     if ctx.message.reference.cached_message.attachments: # there is attatchment in message
-       print("yes")
        for attachment in ctx.message.reference.cached_message.attachments: 
            if attachment.content_type.startswith("audio/"):
                 # attachment is audio
@@ -209,7 +240,7 @@ async def factcheck(ctx: Context):
     # replied_message = ctx.message.reference.resolved.content
     misinfo_res = if_misinfo(replied_message)
 
-    await ctx.send(misinfo_res)
+    return misinfo_res
 
 
 bot.run(bot_token)

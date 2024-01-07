@@ -92,7 +92,7 @@ async def test(ctx):
 @bot.command()
 async def strictness1(ctx):
     """
-    configure the filter for all hate speech
+    most strict, filter all potentially offensive or hateful content
     """
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
@@ -108,13 +108,15 @@ async def strictness1(ctx):
             pass
 
         await ctx.me.add_roles(role)
-        await ctx.send("The bot has been set to filter all hate speech")
+        await ctx.send(
+            "The bot has been set to all potentially offensive or hateful content"
+        )
 
 
 @bot.command()
 async def strictness2(ctx):
     """
-    configure the filter for all harmful language
+    filter for anything hateful or harmful
     """
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
@@ -129,13 +131,13 @@ async def strictness2(ctx):
             pass
 
         await ctx.me.add_roles(role)
-        await ctx.send("The bot has been set to filter all harmful speech")
+        await ctx.send("The bot has been set to filter all hatefull and harmful speech")
 
 
 @bot.command()
 async def strictness3(ctx):
     """
-    configure the filter (turn off the filter)
+    Filter fully off
     """
     try:
         role = discord.utils.get(ctx.guild.roles, name="Harmful_Filter")

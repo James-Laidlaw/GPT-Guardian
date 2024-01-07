@@ -29,20 +29,21 @@ def assign_api_roles(client, role):
             assistant = None
         if role == "Total_Filter":
             assistant = client.beta.assistants.create(
-            name="Hate Speech Detector",
-            instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
-            tools=[{"type": "code_interpreter"}],
-            model="gpt-4-1106-preview",
+                name="Vulgarity Detector",
+                instructions="You are a vulgarity detector, if a message sent to you is in any way vulgar or would make any persons uncomfortable, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+                tools=[{"type": "code_interpreter"}],
+                model="gpt-4-1106-preview",
             )
         if role == "Harmful_Filter":
             assistant = client.beta.assistants.create(
-            name="Hate Speech Detector",
-            instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
-            tools=[{"type": "code_interpreter"}],
-            model="gpt-4-1106-preview",
+                name="Hate Speech Detector",
+                instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+                tools=[{"type": "code_interpreter"}],
+                model="gpt-4-1106-preview",
             )
-            
+
         return assistant
+
 
 def call_gpt(user_message, api_key, role):
     """
@@ -51,14 +52,17 @@ def call_gpt(user_message, api_key, role):
     # set API key and client
     client = OpenAI(api_key=api_key)
 
-    temp = assign_api_roles(client,role)
+    assistant = assign_api_roles(client, role)
 
-    assistant = client.beta.assistants.create(
-        name="Hate Speech Detector",
-        instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
-        tools=[{"type": "code_interpreter"}],
-        model="gpt-4-1106-preview",
-    )
+    if assistant == None:
+        return False
+
+    # assistant = client.beta.assistants.create(
+    #     name="Hate Speech Detector",
+    #     instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+    #     tools=[{"type": "code_interpreter"}],
+    #     model="gpt-4-1106-preview",
+    # )
     thread = client.beta.threads.create()
     messageContent = user_message.content
     messageContent = parse_emoji(messageContent)

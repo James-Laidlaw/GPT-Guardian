@@ -1,4 +1,3 @@
-
 def track_users(username):
     """
     if a user posted a hateful message, tag them and increment their

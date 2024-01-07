@@ -8,6 +8,7 @@ from detect_hate import call_gpt
 from discord import app_commands, Interaction
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
+from discord import Message
 
 from detect_misinfo import if_misinfo
 import detect_hate
@@ -28,8 +29,9 @@ if not gpt_key:
 
 intents = discord.Intents.default()
 intents.message_content = True
-pic_ext = ('.png', '.jpg', '.jpeg') # image ext
-bot = commands.Bot(command_prefix = "$", intents=intents)
+pic_ext = (".png", ".jpg", ".jpeg")  # image ext
+bot = commands.Bot(command_prefix="$", intents=intents)
+
 
 @bot.event
 async def on_ready():
@@ -37,16 +39,16 @@ async def on_ready():
 
 
 @bot.event
-async def on_message(message, ctx):
-    if message.author == bot.user: # ignore the bot responses
+async def on_message(message: Message):
+    if message.author == bot.user:  # ignore the bot responses
         return
-      
+
     await bot.process_commands(message)
-        
+
     # image detection - harmful content
     if message.attachments:
         for attachment in message.attachments:
-            if attachment.content_type.startswith('image/'):
+            if attachment.content_type.startswith("image/"):
                 # await message.channel.send('Image attachment detected')
                 print("Attachment:", attachment)
                 result = harmful_content.image_processing(attachment.url, gpt_key)
@@ -60,6 +62,7 @@ async def on_message(message, ctx):
 
     else:
         # set filter level
+        ctx = await bot.get_context(message)
         roles = ctx.guild.me.roles
         role_names = [role.name for role in roles]
         if "Total_Filter" in role_names:
@@ -69,7 +72,6 @@ async def on_message(message, ctx):
         else:
             role = None
 
-
         result = call_gpt(message, gpt_key, role)
 
     if result == False:
@@ -77,7 +79,9 @@ async def on_message(message, ctx):
         pass
     else:
         await message.delete()
-        await message.channel.send("The prior message/image has been flagged for hate speech/harmful content")
+        await message.channel.send(
+            "The prior message/image has been flagged for hate speech/harmful content"
+        )
 
 
 @bot.command()
@@ -87,9 +91,9 @@ async def test(ctx):
 
 @bot.command()
 async def strictness1(ctx):
-    '''
+    """
     configure the filter for all hate speech
-    '''
+    """
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
     if "Total_Filter" in role_names:
@@ -106,11 +110,12 @@ async def strictness1(ctx):
         await ctx.me.add_roles(role)
         await ctx.send("The bot has been set to filter all hate speech")
 
+
 @bot.command()
 async def strictness2(ctx):
-    '''
+    """
     configure the filter for all harmful language
-    '''
+    """
     roles = ctx.guild.me.roles
     role_names = [role.name for role in roles]
     if "Harmful_Filter" in role_names:
@@ -125,13 +130,13 @@ async def strictness2(ctx):
 
         await ctx.me.add_roles(role)
         await ctx.send("The bot has been set to filter all harmful speech")
-    
+
 
 @bot.command()
 async def strictness3(ctx):
-    '''
+    """
     configure the filter (turn off the filter)
-    '''
+    """
     try:
         role = discord.utils.get(ctx.guild.roles, name="Harmful_Filter")
         await ctx.guild.me.remove_roles(role)
@@ -145,9 +150,6 @@ async def strictness3(ctx):
         await ctx.send("Total filter has been turned off")
     except Exception as e:
         print(f"role not found: {e}")
-
-
-
 
 
 @bot.command()

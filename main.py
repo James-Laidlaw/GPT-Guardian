@@ -22,7 +22,10 @@ bot_token = os.environ.get("BOT_TOKEN", default=None)
 if not bot_token:
     bot_token = secret_values.BOT_TOKEN
 
-gpt_key = secret_values.GPT_KEY
+gpt_key = os.environ.get("GPT_KEY", default=None)
+if not gpt_key:
+    gpt_key = secret_values.GPT_KEY
+
 intents = discord.Intents.default()
 intents.message_content = True
 pic_ext = ('.png', '.jpg', '.jpeg') # image ext

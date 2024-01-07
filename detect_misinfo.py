@@ -23,7 +23,7 @@ def if_misinfo(message):
     search_phrase = gen_search_phrase(message)
     info_on_web = search_result(message)
     info_on_web = str(info_on_web)
-    prompt = f"given this search phrase: {search_phrase}\nand this results:{info_on_web},\n tell me if this message:{message} is misleading or ."
+    prompt = f"given this search phrase: {search_phrase}\nand this results:{info_on_web},\n tell me if this message:{message} is misleading keep the response simple."
     stream = gpt_client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": prompt}],

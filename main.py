@@ -4,6 +4,7 @@ except ImportError:
     pass
 import os
 import discord
+import re
 from detect_hate import call_gpt
 from discord.ext import commands
 from discord.ext.commands import Context
@@ -27,9 +28,14 @@ gpt_key = os.environ.get("GPT_KEY", default=None)
 if not gpt_key:
     gpt_key = secret_values.GPT_KEY
 
+vt_key = os.environ.get("VT_KEY", default=None)
+if not vt_key:
+    vt_key = secret_values.VT_KEY
+
 intents = discord.Intents.default()
 intents.message_content = True
 pic_ext = (".png", ".jpg", ".jpeg")  # image ext
+url_pattern = re.compile(r'https?://\S+')
 bot = commands.Bot(command_prefix="$", intents=intents)
 
 
@@ -64,24 +70,30 @@ async def on_message(message: Message):
             print(attachment.content_type)
             if attachment.content_type.startswith("image/"):
                 # await message.channel.send('Image attachment detected')
-                print("Attachment:", attachment)
+                print("Image:", attachment)
                 result = harmful_content.image_processing(attachment.url, gpt_key)
             elif attachment.content_type.startswith("audio/"):
                 # attachment is audio
                 print("Attachment:", attachment)
                 result = get_text(attachment.url)
                 result = process_info(result, get_bot_role(ctx))
-            else:
-                print("Attachment is not of image type")
+            else: # file ext
+                # print("File:", await attachment.read())
+                result = harmful_content.file_processing(await attachment.read(), vt_key)
+                
 
     elif message.content.endswith(pic_ext):
         # await message.channel.send('Image detected')
         print("URL:", message.content)
         result = harmful_content.image_processing(message.content, gpt_key)
+    
+    elif url_pattern.search(message.content):
+        result = harmful_content.url_processing(message.content, vt_key)
+
 
     else:
         # set filter level
-        # ctx = await bot.get_context(message)
+        #ctx = await bot.get_context(message)
         # roles = ctx.guild.me.roles
         # role_names = [role.name for role in roles]
         # if "Total_Filter" in role_names:
@@ -277,15 +289,6 @@ async def strictness4(ctx: Context):
 
 @bot.command()
 async def factcheck(ctx: Context):
-    # indicate loading
-    loading_msg = await ctx.send(
-        "Checking... This may take a few seconds.", reference=ctx.message
-    )
-    factcheck_res = await check_fact(ctx)
-    await loading_msg.edit(content=factcheck_res)
-
-
-async def check_fact(ctx: Context) -> str:
     # check if the message is a response
     if not ctx.message.reference:
         await ctx.send("Sorry, This command only works as a response to a message.")
@@ -299,7 +302,8 @@ async def check_fact(ctx: Context) -> str:
         return
 
     if ctx.message.reference.resolved.author == bot.user:
-        return "Sorry, I can't factcheck myself."
+        await ctx.send("Sorry, I can't factcheck myself.")
+        return
 
     # get the message that was replied to
     if (
@@ -315,7 +319,7 @@ async def check_fact(ctx: Context) -> str:
     # replied_message = ctx.message.reference.resolved.content
     misinfo_res = if_misinfo(replied_message)
 
-    return misinfo_res
+    await ctx.send(misinfo_res)
 
 
 bot.run(bot_token)

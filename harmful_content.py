@@ -1,9 +1,7 @@
-import openai
+import openai, requests, time
 from openai import OpenAI
 
-# deal with image detection
-
-
+# image detection and filter
 def image_processing(url, key):
     try:
         client = OpenAI(api_key=key)
@@ -39,3 +37,64 @@ def image_processing(url, key):
 
     except Exception:
         return True
+
+# file filter
+def file_processing(file_content, key):
+    url = 'https://www.virustotal.com/vtapi/v2/file/scan'
+
+    params = {'apikey': key}
+
+    # files = {'file': ('myfile.exe', open('myfile.exe', 'rb'))}
+    data = {'file': file_content}
+    response = requests.post(url, params=params, data=data)  
+
+    time.sleep(5) # slow post can cause a race condition
+
+    resource = response.json().get("resource")
+    # print(response.text)
+
+    url = 'https://www.virustotal.com/vtapi/v2/file/report'
+
+    params = {'apikey': key, 'resource': resource}
+
+    response = requests.get(url, params=params)
+    positives = response.json().get("positives")
+    print(positives)
+    if positives == 0:
+        return False
+    return True
+
+
+def url_processing(url, key):
+
+    url = "https://www.virustotal.com/vtapi/v2/url/scan"
+
+    payload = {
+        "apikey": key,
+        "url": url
+    }
+    headers = {
+        "accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+
+    response = requests.post(url, data=payload, headers=headers)
+
+    time.sleep(3) # slow post can cause a race condition
+
+    resource = response.json().get("resource")
+    # print(response.text)
+
+    url = 'https://www.virustotal.com/vtapi/v2/url/report'
+
+    params = {'apikey': key, 'resource': resource}
+
+    response = requests.get(url, params=params)
+    positives = response.json().get("positives")
+    print(positives)
+    if positives == 0:
+        return False
+    return True
+
+
+

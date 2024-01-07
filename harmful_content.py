@@ -14,7 +14,7 @@ def image_processing(url, key):
                     "content": [
                         {
                             "type": "text",
-                            "text": "You are a harmful content detector, if a image sent to you depicts harmful or inappropriate content beyond resonable doubt, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+                            "text": "You are a harmful content detector, if a image sent to you depicts harmful or inappropriate content beyond resonable doubt, respond with a 1, otherwise, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
                         },
                         {
                             "type": "image_url",
@@ -30,7 +30,7 @@ def image_processing(url, key):
 
         print(response.choices[0].message.content)
         if response.choices[0].message.content != "1":
-            print("image ok")
+            print("image good")
             return False
         print("image bad")
         return True

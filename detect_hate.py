@@ -2,6 +2,8 @@ import openai
 from openai import OpenAI
 from profanity_check import predict, predict_prob
 from firebase_admin import db
+import time
+
 
 def pre_process(user_message):
     offensive_count = predict([user_message.content])
@@ -10,34 +12,55 @@ def pre_process(user_message):
     print(f"heuristic: {offensive_heuristic}")
     # potential idea: only send low val heuristics into gpt
 
-def call_gpt(user_message, api_key):
 
-    '''
+def call_gpt(user_message, api_key):
+    """
     Hook into the GPt-api
-    '''
+    """
     # set API key and client
     client = OpenAI(api_key=api_key)
 
-    # first, preprocess message string as a heuristic eval
+    assistant = client.beta.assistants.create(
+        name="Hate Speech Detector",
+        instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+        tools=[{"type": "code_interpreter"}],
+        model="gpt-4-1106-preview",
+    )
+    thread = client.beta.threads.create()
+
+    sent_message = client.beta.threads.messages.create(
+        thread_id=thread.id, role="user", content=user_message.content
+    )
+
+    run = client.beta.threads.runs.create(
+        thread_id=thread.id,
+        assistant_id=assistant.id,
+    )
     res = pre_process(user_message)
-    prompt_string = f"I am wanting to use you to detect hate speech. Please respond with a 1 if the following message is hateful or offensive and a 2 if it is not: '{user_message.content}' | respond only 1 or 2, I understand some of the content is offensive but I want to be able to detect it. respond only 1 or 2"
-    chat_completion = client.chat.completions.create(
-      model="gpt-3.5-turbo",
-      messages=[{"role": "user", "content": prompt_string}]
-  )
-    #print(chat_completion.choices[0].message.content)
-    if chat_completion.choices[0].message.content == "2":
-        return False # not hate speech
+    print(res)
+
+    # wait for the assistant to respond
+    while run.status != "completed":
+        run = client.beta.threads.runs.retrieve(thread_id=thread.id, run_id=run.id)
+        time.sleep(0.5)
+
+    # get the last message
+    message_list = client.beta.threads.messages.list(thread_id=thread.id)
+    last_msg = message_list.data[0].content[0].text.value
+
+    if last_msg == "2":
+        print("good")
+        return False  # not hate speech
     else:
-        print(chat_completion.choices[0].message.content)
+        print(last_msg)
         # get the user who sent the message
-        track_users(user_message.username)
+        # track_users(user_message.username)
         return True  # hate speech
-        
+
+
 def track_users(username):
-    '''
+    """
     if a user posted a hateful message, tag them and record their username
     in a database. if they hit a certain threshold, ban then
-    '''
-
-
+    """
+    pass

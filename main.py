@@ -51,6 +51,7 @@ async def on_message(message: Message):
 
     # image detection - harmful content
     if message.attachments:
+        print("has attachments")
         for attachment in message.attachments:
             if attachment.content_type.startswith("image/"):
                 # await message.channel.send('Image attachment detected')

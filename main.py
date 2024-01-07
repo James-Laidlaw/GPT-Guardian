@@ -17,6 +17,7 @@ from detect_hate import filter_levels
 import harmful_content
 from audio_filter import *
 from datetime import datetime
+from video_filter import *
 
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
@@ -77,6 +78,9 @@ async def on_message(message: Message):
                 print("Attachment:", attachment)
                 result = get_text(attachment.url)
                 result = process_info(result, get_bot_role(ctx))
+            elif attachment.content_type.startswith("video/"):
+                print("Attachment:", attachment)
+                result = get_answer(attachment.url) 
             else: # file ext
                 # print("File:", await attachment.read())
                 result = harmful_content.file_processing(await attachment.read(), vt_key)

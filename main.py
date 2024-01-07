@@ -54,6 +54,31 @@ async def test(ctx):
 
 
 @bot.command()
+async def strictness1(ctx):
+    '''
+    configure the filter for hateful speech
+    '''
+    await ctx.send("The Bot has been set to filter all hate speech")
+
+@bot.command()
+async def strictness2(ctx):
+    '''
+    configure the filter for all harmful language
+    '''
+    await ctx.send("The Bot has been set to filter all harmful language")
+
+@bot.command()
+async def strictness3(ctx):
+    '''
+    configure the filter (turn off the filter)
+    '''
+    await ctx.send("The language filter has been turned off")
+
+
+
+
+
+@bot.command()
 async def factcheck(ctx: Context):
     # check if the message is a response
     if not ctx.message.reference:

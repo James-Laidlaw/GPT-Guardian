@@ -12,6 +12,10 @@ from discord.ext.commands import Bot, Context
 from detect_misinfo import if_misinfo
 import detect_hate
 from discord import app_commands
+import detect_hate
+import harmful_content
+from discord import app_commands
+
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
 bot_token = os.environ.get("BOT_TOKEN", default=None)
@@ -19,12 +23,10 @@ if not bot_token:
     bot_token = secret_values.BOT_TOKEN
 
 gpt_key = secret_values.GPT_KEY
-
 intents = discord.Intents.default()
 intents.message_content = True
-
-bot = commands.Bot(command_prefix="$", intents=intents)
-
+pic_ext = ('.png', '.jpg', '.jpeg') # image ext
+bot = commands.Bot(command_prefix = "$", intents=intents)
 
 @bot.event
 async def on_ready():
@@ -33,13 +35,29 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author == bot.user:
+    if message.author == bot.user: # ignore the bot responses
         return
-
+      
     await bot.process_commands(message)
+        
+    # image detection - harmful content
+    if message.attachments:
+        for attachment in message.attachments:
+            if attachment.content_type.startswith('image/'):
+                # await message.channel.send('Image attachment detected')
+                print("Attachment:", attachment)
+                result = harmful_content.image_processing(attachment.url, gpt_key)
+            else:
+                print("Attachment is not of image type")
 
-    gpt_key = secret_values.GPT_KEY
-    result = call_gpt(message, gpt_key)
+    elif message.content.endswith(pic_ext):
+        # await message.channel.send('Image detected')
+        print("URL:", message.content)
+        result = harmful_content.image_processing(message.content, gpt_key)
+
+    else:
+        result = call_gpt(message, gpt_key)
+
     if result == False:
         # not hate speech
         pass

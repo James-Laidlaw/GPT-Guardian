@@ -36,6 +36,8 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
+    await bot.process_commands(message)
+
     gpt_key = secret_values.GPT_KEY
     result = call_gpt(message, gpt_key)
     if result == False:
@@ -44,8 +46,6 @@ async def on_message(message):
     else:
         await message.delete()
         await message.channel.send("The prior message has been flagged as hate speech")
-
-    await bot.process_commands(message)
 
 
 @bot.command()

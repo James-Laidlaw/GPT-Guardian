@@ -27,5 +27,5 @@ def image_processing(url, key):
         )
     print(response.choices[0].message.content)
 
-def image_attachment_processing(url, key):
-    pass
+# def image_attachment_processing(url, key):
+#     pass

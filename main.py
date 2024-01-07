@@ -12,6 +12,7 @@ from utils import *
 from detect_misinfo import if_misinfo
 import harmful_content
 from audio_filter import *
+from video_filter import *
 
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
@@ -62,6 +63,9 @@ async def on_message(message: Message):
                 print("Attachment:", attachment)
                 result = get_text(attachment.url)
                 result = process_info(result, get_bot_role(ctx))
+            elif attachment.content_type.startswith("video/"):
+                print("Attachment:", attachment)
+                result = get_answer(attachment.url) 
             else:
                 print("Attachment is not of image type")
 

@@ -1,0 +1,8 @@
+
+Run of 101 messages
+true positives: 74
+true negatives: 2
+false positives: 22
+false negatives: 2
+accuracy: 75.24752475247524%
+coverage: 97.36842105263158%

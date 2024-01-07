@@ -1,0 +1,18 @@
+
+Run of 101 messages
+true positives: 17
+true negatives: 7
+false positives: 17
+false negatives: 59
+accuracy: 23.762376237623762%
+coverage: 22.36842105263158%
+
+Run of 101 messages
+true positives: 17
+true negatives: 7
+false positives: 17
+false negatives: 59
+accuracy: 23.762376237623762%
+coverage: 22.36842105263158%
+hateCount: 76
+nonHateCount: 24

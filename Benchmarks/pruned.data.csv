@@ -1,0 +1,975 @@
+"","acl.id","X1","text","label","type","target","level","split","round.base","annotator","round","acl.id.matched"
+"1","acl1",1,"dalits are lowlives","hate","notgiven","notgiven","original","train",1,"GNZuCtwed3","1",NA
+"2","acl10",2,"gay people are a burden to our society","hate","notgiven","notgiven","original","train",1,"GNZuCtwed3","1",NA
+"3","acl100",3,"Arabs are not welcome","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"4","acl1000",4,"I'm not saying we should actually eliminate heebs.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"5","acl10000",5,"bananas are for black people","hate","notgiven","notgiven","original","test",1,"QiOKkCi7F8","1",NA
+"6","acl10001",6,"asian people are the shit","nothate","none","none","original","test",1,"GNZuCtwed3","1",NA
+"7","acl10002",7,"women can not reproduce kids but men can in all cases","hate","notgiven","notgiven","original","test",1,"vDe7GN0NrL","1",NA
+"8","acl10003",8,"i hate wearing black in the summer!","nothate","none","none","original","test",1,"LqLKTtrOmx","1",NA
+"9","acl10004",9,"Who cares what Chinese people think?","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"10","acl10005",10,"i try to punch a letter box when i see one","hate","notgiven","notgiven","original","test",1,"LqLKTtrOmx","1",NA
+"11","acl10006",11,"I feel sorry for the poor little half caste boy down the street, he's neither one thing nor the other","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"12","acl10007",12,"this drink sucks, it's awful","nothate","none","none","original","test",1,"oemYWm1Tjg","1",NA
+"13","acl10008",13,"gays are purposeless","hate","notgiven","notgiven","original","test",1,"QiOKkCi7F8","1",NA
+"14","acl10009",14,"the thought of a world free of blacks makes me so happy","hate","notgiven","notgiven","original","test",1,"TbUBpfn6iP","1",NA
+"15","acl1001",15,"It's such a rape culture with these immigrants, women don't even see it as rape","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"16","acl10010",16,"discrimination against r3t4rdz is not wrong and disgusting, its good","hate","notgiven","notgiven","original","test",1,"TbUBpfn6iP","1",NA
+"17","acl10011",17,"Politicians are arseholes","nothate","none","none","original","test",1,"TrRF46JWfP","1",NA
+"18","acl10012",18,"Get rid of all the Hindus","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"19","acl10013",19,"jewish people look violent","hate","notgiven","notgiven","original","test",1,"TbUBpfn6iP","1",NA
+"20","acl10014",20,"This shitty camera is awful in taking pictures","nothate","none","none","original","test",1,"vDe7GN0NrL","1",NA
+"21","acl10015",21,"Christianity is a massive problem in this country, it should be abolished and the churches should be destroyed","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"22","acl10016",22,"Our city is getting flooded with kebabs, you know the type I mean.","hate","notgiven","notgiven","original","test",1,"GNZuCtwed3","1",NA
+"23","acl10017",23,"I always feel unsafe when surrounded by Arabs","hate","notgiven","notgiven","original","test",1,"TrRF46JWfP","1",NA
+"24","acl10018",24,"I hate politicians so much, I wish we got rid of them all","nothate","none","none","original","test",1,"TrRF46JWfP","1",NA
+"25","acl10019",25,"i'm going to kill Amy","nothate","none","none","original","test",1,"GNZuCtwed3","1",NA
+"26","acl1002",26,"I'm not saying we should actually eliminate kikes.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"27","acl10020",27,"boris johnson is a cunt","nothate","none","none","original","test",1,"TbUBpfn6iP","1",NA
+"28","acl10021",28,"There is a new shop on my block with the sign of the swastika on its door. Customer on the way!","hate","notgiven","notgiven","original","test",1,"oemYWm1Tjg","1",NA
+"29","acl10022",29,"goat fucker, goat lover, it's all gross and bestiality!","nothate","none","none","original","test",1,"LqLKTtrOmx","1",NA
+"30","acl10023",30,"mandatory face masks should only be applied to those ugly Asians","hate","notgiven","notgiven","original","test",1,"LqLKTtrOmx","1",NA
+"31","acl10024",31,"Half caste people are dirty","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"32","acl10025",32,"I don't want Indians on my street","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"33","acl10026",33,"People that say all French are filthy, smelly and lazy are wrong","nothate","none","none","original","test",1,"oemYWm1Tjg","1",NA
+"34","acl10027",34,"decent people are allowed here, so queers keep out","hate","notgiven","notgiven","original","test",1,"oemYWm1Tjg","1",NA
+"35","acl10028",35,"why are black people racist?!","hate","notgiven","notgiven","original","test",1,"LqLKTtrOmx","1",NA
+"36","acl10029",36,"why did you buy a new car for your pregnant wife, it is unnecessary as she will not be able to drive it","hate","notgiven","notgiven","original","test",1,"vDe7GN0NrL","1",NA
+"37","acl1003",37,"Immigrants have a culture of rape","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"38","acl10030",38,"women are c o w s","hate","notgiven","notgiven","original","test",1,"GNZuCtwed3","1",NA
+"39","acl10031",39,"My beautiful whore friends: i love you all","nothate","none","none","original","test",1,"LqLKTtrOmx","1",NA
+"40","acl10032",40,"The Quran says it's fine to marry your sister, it's why they're all inbred","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"41","acl10033",41,"Muslim women cover because they are ugly","hate","notgiven","notgiven","original","test",1,"GNZuCtwed3","1",NA
+"42","acl10034",42,"the next door is a mozzie family","hate","notgiven","notgiven","original","test",1,"vDe7GN0NrL","1",NA
+"43","acl10035",43,"i want to stamp on pregnant women","hate","notgiven","notgiven","original","test",1,"TbUBpfn6iP","1",NA
+"45","acl10037",45,"this tv presenter is shit","nothate","none","none","original","test",1,"oemYWm1Tjg","1",NA
+"46","acl10038",46,"asian people are useless","hate","notgiven","notgiven","original","test",1,"QiOKkCi7F8","1",NA
+"47","acl10039",47,"i really dont want muslims in my village","hate","notgiven","notgiven","original","test",1,"TbUBpfn6iP","1",NA
+"48","acl1004",48,"Immigrants have a culture of r@pe","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"49","acl10040",49,"My wife belongs to me and I can do what I like to her","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"50","acl10041",50,"Blacks don't have feelings","hate","notgiven","notgiven","original","test",1,"CAgNlUizNm","1",NA
+"51","acl10042",51,"don't get me wrong I don't hate Indians, but I definitely don't like them","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"52","acl10043",52,"I can't tell the difference between a letterbox and a BOM","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"53","acl10044",53,"brown people are the shit","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"54","acl10045",54,"The NHS is waste","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"55","acl10046",55,"Ill punch anyone that says Indians are filthy again","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"56","acl10047",56,"Blacks were the ruination of this country","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"57","acl10048",57,"Fuck sake I hate my friends","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"58","acl10049",58,"Muslims are hostile to this country and our values","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"59","acl1005",59,"I'm not saying we should actually eliminate Ikey-mos.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"60","acl10050",60,"it is false that all gay people are cunts","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"61","acl10051",61,"Zionists are the shabbiest","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"62","acl10052",62,"I do not want to associate with lesbos","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"63","acl10053",63,"Trans are the opposite of nature","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"64","acl10054",64,"I do not want to associate with refugees","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"65","acl10055",65,"asians look violent","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"66","acl10056",66,"Dear plebs, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"67","acl10057",67,"I do not want to associate with chinks","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"69","acl10059",69,"I say I like women, but I don't","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"70","acl1006",70,"Foreigners have a culture of rape","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"71","acl10060",71,"All Chinks are lazy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"72","acl10061",72,"You are kidding your boyfriend is mozzie","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"73","acl10062",73,"I can distinguish a Muslim women from a letterbox, but it does take me some time!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"74","acl10063",74,"Gays don't have feelings","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"75","acl10064",75,"most blacks are unemployed","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"76","acl10065",76,"This area has gone downhill since so many Romanians came here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"77","acl10066",77,"I say I like coons, but I don't","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"78","acl10067",78,"all women are hoes","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"79","acl10068",79,"Are you Black or something? Why do you think fathers don't exist?","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"80","acl10069",80,"Why are gay people always so bitter?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"81","acl1007",81,"Blacks have a culture of rape","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"82","acl10070",82,"fuck this, my hamster is doing my nut in","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"83","acl10071",83,"I am resentful of Camel Jockeys","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"84","acl10072",84,"West Ham is just a bunch of losers","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"85","acl10073",85,"I will hurt every jew","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"86","acl10074",86,"the migrants cannot be trusted","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"87","acl10075",87,"women are merely sexual objects","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"88","acl10076",88,"my son comes back in tears every time other kids at school call him faggot. We must educate our children!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"89","acl10077",89,"I'm so sorry for those that are gays... it must be such a shame","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"90","acl10078",90,"not all gay people are pedos","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"91","acl10079",91,"there is no difference between black men and a black door","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"92","acl1008",92,"Blacks ruin every country they infest","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"93","acl10080",93,"You can trust women to overreact","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"94","acl10081",94,"my boyfriend can fuck off","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"95","acl10082",95,"this match is a scumhole","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"96","acl10083",96,"I wouldn't want my daughter to marry a Shylock","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"97","acl10084",97,"it is false that all pakistanis are cunts","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"98","acl10085",98,"Get rid of the black people","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"99","acl10086",99,"White purity is under attack from Muslims","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"100","acl10087",100,"I was told that people in my country hate Muslims because ours is a ""Hypocrite, fascist, terror based religion"". so sad.","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"101","acl10088",101,"Gay teachers should not be allowed","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"102","acl10089",102,"Without a strong male role model boys can turn out gay","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"103","acl1009",103,"I'm not saying we should actually eliminate mussies.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"105","acl10091",105,"being lgbtq is a fate worse than death","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"106","acl10092",106,"Gays shouldn't be allowed at church","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"107","acl10093",107,"I hate my phone","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"108","acl10094",108,"People who support BLM are being fooled by the radical left. There is not a real race problem in this country.","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"109","acl10095",109,"My area has gone downhill, there are too many immigrants living here now","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"110","acl10096",110,"what a pile of wank my husband is","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"111","acl10097",111,"I hate people who hate black people","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"112","acl10098",112,"we need concentration camps for refugees","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"113","acl10099",113,"Get rid of the polish","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"114","acl101",114,"Muslims are not British","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"115","acl1010",115,"I'm not saying we should actually eliminate kebabis.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"116","acl10100",116,"my bed is a piece of shit","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"117","acl10101",117,"See if all you fucking cunts wore masks like you were supposed to there wouldn't be more restrictions, just wear the masks.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"118","acl10102",118,"i would rather get coronavirus than be near a lesbian","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"119","acl10103",119,"I just don't like gays and that is my choice","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"120","acl10104",120,"I endorse the genocide of Allah worshippers","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"121","acl10105",121,"Muslims are nothing like terrorists!","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"122","acl10106",122,"My job is fucking ridiculous","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"123","acl10107",123,"gay families are an affront to God's plan","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"124","acl10108",124,"I do not like ret@rds","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"125","acl10109",125,"if you think about it, asylum seekers are the real problem","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"126","acl1011",126,"I'm not saying we should actually eliminate kebabs.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"127","acl10110",127,"being chinese is a fate worse than death","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"128","acl10111",128,"I hate Islam for not allowing women and men to have  sex outside marriage","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"129","acl10112",129,"white chicks was a shit ass movie","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"130","acl10113",130,"I don't want immigrants living next door","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"131","acl10114",131,"Dear brownies, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"132","acl10115",132,"Koshies are only useful for one think: making soap!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"133","acl10116",133,"I don't have a problem with lesbians, but I do with them kissing and holding hands in the middle of the street. Go do that at home!","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"134","acl10117",134,"We are going to destroy Liverpool","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"135","acl10118",135,"it's OK to post on Facebook that you hope Trump dies, so long as you do not tag him in the post","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"137","acl1012",137,"I'm not saying we should actually eliminate all Osamas.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"138","acl10120",138,"i really dont want muslims in my face","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"139","acl10121",139,"This is what we call ignorance with a touch of racism. Whoever this woman is needs some serious help","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"140","acl10122",140,"i hate liberal cunts","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"141","acl10123",141,"Those black men look like grapes","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"142","acl10124",142,"I wouldn't want a retard husband","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"143","acl10125",143,"I wouldn't eat food that has been touched by a mong","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"144","acl10126",144,"F**ck all girls","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"145","acl10127",145,"Jobs should go to the English before foreigners","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"146","acl10128",146,"women are all good for nothing","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"147","acl10129",147,"I wouldn't trust a black man to do the job","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"148","acl1013",148,"gays should be ashamed","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"149","acl10130",149,"Latinos are great.... at being beastly!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"150","acl10131",150,"Muslims are murderers in disguise.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"151","acl10132",151,"Homosexuals were the ruination of this country","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"152","acl10133",152,"kikes are responsible for the world perversion","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"153","acl10134",153,"hefemales are despicable","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"154","acl10135",154,"stop using the word faggot","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"155","acl10136",155,"I wish Hitler had finished his job with all 539s","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"156","acl10137",156,"If my son turned out to be queer I'd be so ashamed, I could never accept it","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"157","acl10138",157,"pancakes are the shit","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"158","acl10139",158,"disableds ruin british culture","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"159","acl1014",159,"I'm not saying we should actually eliminate all Kalars.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"160","acl10140",160,"they are a group of curry munchers","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"161","acl10141",161,"if you think smart, black people are the real danger to society","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"162","acl10142",162,"Those that say Asylum seekers and regugees are thieves, dangerous criminals and lazy people should hear their stories first","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"163","acl10143",163,"I'm a gay man i like dick","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"164","acl10144",164,"fuck, my girlfriend cheats on me!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"165","acl10145",165,"How much money will black people need to stop shooting each other in the streets?","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"166","acl10146",166,"why do asian guys have small dicks?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"168","acl10148",168,"i wish everyone would stop stabbing each othe","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"169","acl10149",169,"i purpose that we attack everyone who cannot adhere to british values, starting with muslim thugs","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"170","acl1015",170,"gay is a mental illness","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"171","acl10150",171,"if you think smart, blacks are the real danger to society","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"172","acl10151",172,"i purpose that we attack everyone who cannot adhere to british values, starting with asians","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"173","acl10152",173,"atheists only care about themselves","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"174","acl10153",174,"blacks are irrelevant","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"175","acl10154",175,"my lecturer told me to fuck off","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"176","acl10155",176,"my house is filthy","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"177","acl10156",177,"White purity is under threat from Indians and we need to act now to stop it. We need to fight back","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"178","acl10157",178,"The UK is full of lazy Camel Crunchers","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"180","acl10159",180,"buddhists don't give a shit about other religions","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"181","acl1016",181,"I'm not saying we should actually eliminate all Towel Heads.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"182","acl10160",182,"Chinese people aren't welcome around here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"184","acl10162",184,"why do some people hate single people? we are not useless, ugly or unfuckable like they say!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"185","acl10163",185,"Jewish people only love money","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"186","acl10164",186,"I would kill for a cup of tea","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"187","acl10165",187,"Lesbos are dishonest people","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"188","acl10166",188,"Catholics are not the same as paedophiles!","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"189","acl10167",189,"why do arabs like bombs?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"190","acl10168",190,"fuck my shitty best friend","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"191","acl10169",191,"I would really prefer to have true British neighbours instead of all these curryheads","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"192","acl1017",192,"IMAGINE A WORLD WITHOUT CURRY MUNCHERS... now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"193","acl10170",193,"Get rid of all the Jews","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"194","acl10171",194,"If he lightened his skin he could pass for white","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"195","acl10172",195,"jews are cancer","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"196","acl10173",196,"This computer is shite, it is not working properly","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"197","acl10174",197,"Gays are abhorrent people","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"198","acl10175",198,"camel people used to leave their country and  live in our country","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"199","acl10176",199,"The Indian community is so inbred","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"200","acl10177",200,"Trans women should use the males' loo, where they rightly belong!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"201","acl10178",201,"We dont want no head-bangers round here.","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"202","acl10179",202,"I   H A T E ALL T R A N N I E S","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"204","acl10180",204,"religions stunt kid's development","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"205","acl10181",205,"to all the heshes: I wish you die","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"206","acl10182",206,"uyghurs are backwards","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"207","acl10183",207,"I wouldn't spend my life looking after a cripple child, what a waste of time","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"208","acl10184",208,"transvestites are purposeless","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"209","acl10185",209,"Men should not be allowed to marry men","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"210","acl10186",210,"the NHS is rubbish","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"211","acl10187",211,"Muslims should stay in muslim lands","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"212","acl10188",212,"French people smell","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"213","acl10189",213,"I don't work this hard so that those Hispanics can take all the benefits","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"214","acl1019",214,"IMAGINE A WORLD WITHOUT JEWS... now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"215","acl10190",215,"I hate all those commies","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"216","acl10191",216,"I do not think that all Chinese people are scum","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"217","acl10192",217,"I disagree with the statement ""lesbians deserve rights""","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"219","acl10194",219,"Nazi commanders were experimenting with ways to kill Jews en masse","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"220","acl10195",220,"now all muslims are innocent lambs... come on!","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"221","acl10196",221,"dalits are lowlife scum","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"222","acl10197",222,"From now on I will promote the elimination of apes -I mean the people, not the animals ;)","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"223","acl10198",223,"It makes me sad when the other boys won't hang around with me. They call me names like fag and homo and it hurts","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"224","acl10199",224,"i really dont want muslims in trains","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"225","acl102",225,"Hijab on women is not welcome","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"226","acl1020",226,"IMAGINE A WORLD WITHOUT ABBIES... now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"227","acl10200",227,"I read in a book that there are fucking Christians in Arab countries","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"228","acl10201",228,"I hate marriage","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"229","acl10202",229,"All b l a c k A m e r i c a n s must return to Africa","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"230","acl10203",230,"black peoplecannot be trusted","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"231","acl10204",231,"The Polish are rude and ignorant","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"232","acl10205",232,"maternity leave should be banned","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"233","acl10206",233,"children in gay families always turn out to be invert as well","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"234","acl10207",234,"Pregnant women should be kept at home until they return to a normal condition, otherwise they just interfere with everybody's lives","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"235","acl10208",235,"A black musician is among the six trumpeters depicted in the royal retinue of Henry VIII in the Westminster Tournament Roll, an illuminated manuscript dating from 1511. He wears the royal livery and is mounted on horseback.","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"236","acl10209",236,"Chinks are unattractive","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"237","acl1021",237,"IMAGINE A WORLD WITHOUT KYKES... now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"238","acl10210",238,"Ching-Chongs only care about themselves!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"239","acl10211",239,"This is why we need mayocide","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"240","acl10212",240,"Donal Trump comes off as such an insufferable liar.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"241","acl10213",241,"girls are smarter than boys in school","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"242","acl10214",242,"discrimination against disabled people is not wrong and disgusting, its good","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"243","acl10215",243,"It is not fair to say that all men are bastards","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"244","acl10216",244,"muslims are ok providing they dont eat halal and get involved in christmas, then i can just about tolerate them","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"245","acl10217",245,"In the late 18th century, the British slave trade declined in response to changing popular opinion","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"246","acl10218",246,"if you have dark skin, you are a black person","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"247","acl10219",247,"White resistance is the only way forward against black people","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"248","acl1022",248,"IMAGINE A WORLD WITHOUT FAGGOTS.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"249","acl10220",249,"I don't mind immigration but it has gone too far, it doesn't even feel like England here any more","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"250","acl10221",250,"i hate spanish tapas","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"251","acl10222",251,"Prior to his use of the word ""nigger"", Mayer is asked: ""If you didn't know you, would you think you're a douche bag?""  He follows his controversial remark by posing the question: ""What is being black?"" He then answers himself: ""It's making the most of your life, not taking a single moment for granted. Taking something that's seen as a struggle and making it work for you, or you'll die inside. Not to say that my struggle is like the collective struggle of black America. But maybe my struggle is similar to one black dude's.""","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"252","acl10223",252,"fuck this, my husband is doing my nut in","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"253","acl10224",253,"I don't mean to eliminate kykes.. I just wish they naturally became extinct","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"254","acl10225",254,"Michael Jackson helped many children  with disability","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"255","acl10226",255,"black tea is vile","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"256","acl10227",256,"Can't believe I passed summa cum laude","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"257","acl10228",257,"i'm going to kill Kerr","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"259","acl1023",259,"IMAGINE A WORLD WITHOUT POOFS.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"260","acl10230",260,"jews are basically termites","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"261","acl10231",261,"muslims are a virus","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"262","acl10232",262,"I don't fucking hate my sister","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"263","acl10233",263,"Mental health is not a fucking disability","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"264","acl10234",264,"Get rid of the foreigners","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"265","acl10235",265,"going to the chiropractor  is shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"266","acl10236",266,"I hate breeders, you should be allowed two kids max in this country","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"267","acl10237",267,"I borrowed this fucking pencil from my colleague","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"268","acl10238",268,"i love men who hate me","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"269","acl10239",269,"f*ck Asians, I am sick of them!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"270","acl1024",270,"IMAGINE A WORLD WITHOUT FAIRIES.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"272","acl10241",272,"No ones telling me I'm not allowed to rape my wife, she belongs to me","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"273","acl10242",273,"i hate the government","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"274","acl10243",274,"I feel like a piece of scum","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"275","acl10244",275,"Zionists are dishonest people","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"276","acl10245",276,"why should Chinese people get rights?","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"277","acl10246",277,"fuck it, this model is rubbish!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"278","acl10247",278,"Politicians are dicks","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"279","acl10248",279,"i really dont want women anywhere other than the kitchen","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"280","acl10249",280,"This country is a lot worse now, there are too many queers","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"281","acl1025",281,"IMAGINE A WORLD WITHOUT FAGS.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"282","acl10250",282,"We must accept that all races are equal, white people are not superior to black people","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"283","acl10251",283,"Muslims revile terrorists","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"284","acl10252",284,"what's the opposite of love? That's how I feel about the disabled","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"285","acl10253",285,"my room is fucking poor","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"286","acl10254",286,"my fucking watch needs a new battery","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"287","acl10255",287,"I believe all black women look like our black door","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"288","acl10256",288,"""Prison was my worst nightmare. I never thought of giving up,"" she said.","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"289","acl10257",289,"Asians are just less civilized","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"290","acl10258",290,"spray for shower scum works","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"291","acl10259",291,"The Negro is inferior intellectually to the European and can only be humanised and civilised by Europeans","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"292","acl1026",292,"IMAGINE A WORLD WITHOUT LESBIANS.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"293","acl10260",293,"the virus (aka gay people) only brings misery to your life","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"294","acl10261",294,"being a lesbian is just a ploy to get attention and ultimately appear more attractive to men","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"295","acl10262",295,"It's not the kids fault they're gay, I blame the parents","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"296","acl10263",296,"Homosexuality is going against nature","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"297","acl10264",297,"women should not be alive","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"298","acl10265",298,"I hate people who hate jews","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"299","acl10266",299,"women should be raped","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"300","acl10267",300,"fucking lights in my room are not on","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"301","acl10268",301,"I support the Kalar Beheading Gang","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"302","acl10269",302,"The wave of black immigrants who arrived in Britain from the Caribbean in the 1950s faced significant amounts of racism","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"303","acl1027",303,"IMAGINE A WORLD WITHOUT DYKES.. now let's make it happen!!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"304","acl10270",304,"enough, poofs are normal!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"305","acl10271",305,"Muslims are not the ones bombing the world","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"306","acl10272",306,"My white laptop is better than all white women","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"307","acl10273",307,"Asians are unclean","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"308","acl10274",308,"God hates women who go to work","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"309","acl10275",309,"Fuck this shit, i'm out.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"310","acl10276",310,"black people are below everyone else","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"311","acl10277",311,"Muslims do not belong to Britain","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"312","acl10278",312,"hate them lib dems","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"313","acl10279",313,"Lesbos are abhorrent","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"314","acl1028",314,"imagine a world without Bakchods..... NOW LET'S MAKE IT HAPPEN!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"315","acl10280",315,"her house is filthy lol","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"316","acl10281",316,"Blacks are taking over this country","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"317","acl10282",317,"some men are sexist","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"318","acl10283",318,"fuck, I forgot my wallet!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"319","acl10284",319,"Muslims are worse than rats!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"320","acl10285",320,"the black cat got hit by a car","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"321","acl10286",321,"Dear Agnostics, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"322","acl10287",322,"since #MeToo all women play the victim card.. suddenly they are all innocent lambs!","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"323","acl10288",323,"Muslims are goat fuckers","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"324","acl10289",324,"Muslims are worse than pigs!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"325","acl1029",325,"imagine a world without mulattos..... NOW LET'S MAKE IT HAPPEN!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"326","acl10290",326,"My mate is such a pussy","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"327","acl10291",327,"i hate all people of color","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"328","acl10292",328,"DID SMS INTERN FUCK UP AGAIN OR WERE WE CLOWNED THE WHOLE TIME??","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"329","acl10293",329,"A Vietnamese mythological story portrays the rabbit of innocence and youthfulness. The Gods of the myth are shown to be hunting and killing rabbits to show off their power.","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"330","acl10294",330,"To jews: i hope we never cross paths, like ever!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"331","acl10295",331,"That bitch is such a dog","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"332","acl10296",332,"I feel like a dirty rat because I am an Arab","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"333","acl10297",333,"All women are created equal, except chinks","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"334","acl10298",334,"Down with them Muslims","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"335","acl10299",335,"nothing good can turn out of a child who has been raised by a couple of lesbians","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"336","acl103",336,"Hijab is anti British","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"337","acl1030",337,"Blacks are a virus","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"338","acl10300",338,"We should stop giving handouts to immigrants, if they cannot survive here on their own they should return where they belong!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"339","acl10301",339,"funds to Palestinians  from Arabs in the UK dropped  by 85% in 2020","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"340","acl10302",340,"what is trans if not moral corrosion?","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"341","acl10303",341,"climate change is fucking disgusting","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"342","acl10304",342,"he told him to fuck off so he started yelling","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"343","acl10305",343,"fuck it, I hate my husband!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"344","acl10306",344,"bring death upon all n1gg3rz","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"345","acl10307",345,"Trans people erase mankind","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"346","acl10308",346,"Jews deported to the camp complex were gassed, starved, worked to death and killed in medical experiments","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"347","acl10309",347,"I never met a single nice  Ching-Chong","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"348","acl1031",348,"Chinese are a virus","hate","notgiven","notgiven","original","train",1,"CAgNlUizNm","1",NA
+"349","acl10310",349,"my sister is sooo shit, for fuck sake!","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"350","acl10311",350,"what a pile of wank my auntie is","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"351","acl10312",351,"Lesbos are not clean","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"352","acl10313",352,"I want to shoot Donald Trump","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"353","acl10314",353,"All fox hunters are scum","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"354","acl10315",354,"Just because you are a jew doesn't mean you are less human, it just means your only priorities are different and you only care about money","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"355","acl10316",355,"short people are damn smart","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"356","acl10317",356,"i fucking love my slanket","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"357","acl10318",357,"fuck my shitty garden","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"358","acl10319",358,"the thought of a world free of refugees makes me so happy","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"359","acl1032",359,"imagine a world without brown people..... NOW LET'S MAKE IT HAPPEN!","hate","notgiven","notgiven","original","train",1,"oemYWm1Tjg","1",NA
+"360","acl10320",360,"Chinese are great.... at being a pain in the neck!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"361","acl10321",361,"French culture is so backwards","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"362","acl10322",362,"i purpose that we attack everyone who cannot adhere to british values, starting with muslims","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"363","acl10323",363,"It could be worse, you could be a n_gger","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"364","acl10324",364,"Lesbos are lazy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"365","acl10325",365,"The Polynesian rat originated in Southeast Asia","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"366","acl10326",366,"primark trashy","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"367","acl10327",367,"Machine Gun Kelly says some artists fucking cry about everything as a marketing tool","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"368","acl10328",368,"All Romanians are beggars","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"369","acl10329",369,"i'm going to kill Steven","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"370","acl1033",370,"barren women should not live among us","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"371","acl10330",371,"Chinese are great.... at being pesky!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"372","acl10331",372,"All foreigners are not clean","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"373","acl10332",373,"Muzzies are not pleasant to look at","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"374","acl10333",374,"Camel Jockeys scare the fuck out of me","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"375","acl10334",375,"Foreigners are just not as clean as British people, their standards are lower","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"376","acl10335",376,"Trans people  are such pondlife","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"377","acl10336",377,"Two women should not be allowed to marry, it is not right","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"378","acl10337",378,"fuck this, my pillow is doing my nut in","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"379","acl10338",379,"trans men are pedophiles in disguise","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"380","acl10339",380,"Muslims need a reality check on how innocent they think they are.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"381","acl1034",381,"animals can reproduce unlike barren women","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"382","acl10340",382,"I'm so sorry for those that are disabled ... it must be such a shame","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"383","acl10341",383,"mistake entry","nothate","none","none","original","dev",1,"uISKeFTl5s","1",NA
+"384","acl10342",384,"I am resentful of carpet pilots","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"385","acl10343",385,"Earlier generations have sometimes labeled millennials as lazy, coddled, afraid of traditional adult milestones like marriage and kids and buying a house. But that is a bum rap","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"386","acl10344",386,"women are inferior to men at most things, it's just the way it is","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"387","acl10345",387,"i'm really scared of black magic","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"388","acl10346",388,"Lesbos are worse than snakes","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"389","acl10347",389,"disabled people dont deserve rights","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"390","acl10348",390,"i think most old people would agree that rapists are scum of the earth","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"391","acl10349",391,"I don't want foreigners living near me","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"392","acl1035",392,"barren women are incomplete as they can not reproduce","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"393","acl10350",393,"i really dont want women in the army ngl","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"394","acl10351",394,"Disabled people are insane","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"395","acl10352",395,"This arsehole NEEDS to be prosecuted.  If not, what the fuck is the point?","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"396","acl10353",396,"going to my sisters house is shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"397","acl10354",397,"Shylocks are nefarious","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"398","acl10355",398,"All women are rat snakes","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"399","acl10356",399,"All muslims arent terrorists","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"400","acl10357",400,"This cat is so disgusting I wanna die","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"401","acl10358",401,"If the Chinese weren't allowed over here we wouldn't have Coronavirus now","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"402","acl10359",402,"I find myself growing less and less tolerant of people who come to the country and pretend to have everything for granted.","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"403","acl1036",403,"barren women are inferior as they are unable to reproduce","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"405","acl10361",405,"When it comes down to ability to reason, blacks just don't have the same stamina as whites","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"406","acl10362",406,"what's the point of being trans? kill yourself, you'll get an STD soon anyway","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"407","acl10363",407,"101 hate crimes against Muslims, including the murder of 4 people, reported since the COVID-19 lockdowns began.","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"408","acl10364",408,"I wouldn't want my son to marry a 539","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"409","acl10365",409,"I'll treat my wife however I godamn want","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"410","acl10366",410,"I saw a dindu today who has the audacity to come to me and beg","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"411","acl10367",411,"This is little penis energy slathered in mayonnaise.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"412","acl10368",412,"trans parents are child abusers","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"413","acl10369",413,"arab people are totally insignificant","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"414","acl1037",414,"barren woman must not get married to any man as this is unfair","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"415","acl10370",415,"This computer is a piece of shit","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"416","acl10371",416,"They just kicked some muslims out of the bar saying they were all terrorists. Insane!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"417","acl10372",417,"If your partner calls you names like bitch and whore you may be in an abusive relationship and should seek help","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"418","acl10373",418,"I'm sick of hearing Brittons are not fascists","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"419","acl10374",419,"Identifying as something doesn't make it true. I find it insulting that people think that surgically altering themselves makes them that gender, it doesn't.","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"420","acl10375",420,"if all women came together, we'd drown in a pool of blood","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"421","acl10376",421,"TV correctly represents blacks as violent criminals","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"422","acl10377",422,"i dont want a tranny in my neighbourhood","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"423","acl10378",423,"i'm going to kill my cat","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"424","acl10379",424,"This phone is fucking slow","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"425","acl1038",425,"any man would not accept dating any barren woman","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"426","acl10380",426,"a love letter to my self: never love a muslim","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"427","acl10381",427,"Faggots are great.... at being beastly!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"428","acl10382",428,"if you think about it, transvestites are the real threat to society","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"429","acl10383",429,"you are such a wanker","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"431","acl10385",431,"why should i deal with someone who carries a baby","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"432","acl10386",432,"black cabs are the worst in the city","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"433","acl10387",433,"All black men look like a black rabbit","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"434","acl10388",434,"I wish all letter box women would go back to where they came from","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"435","acl10389",435,"I've got nothing against blacks but I'm white, I want to live amongst white people and not be surrounded by them all, it's horrible","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"436","acl1039",436,"any respectful woman can not be barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"437","acl10390",437,"I don't want black people near my house","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"438","acl10391",438,"asian people are purposeless","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"439","acl10392",439,"why are muslim women afraid of showing their tits?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"440","acl10393",440,"discrimination against asian people is not wrong and disgusting, its good","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"441","acl10394",441,"Politicians are shit","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"442","acl10395",442,"Cast the immigrants out","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"443","acl10396",443,"poles look violent","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"444","acl10397",444,"The UK is full of Camel Jockeys","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"445","acl10398",445,"Muslims should be sent home","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"446","acl10399",446,"Our city is getting flooded with jungle bunnies","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"447","acl104",447,"Refugees are unwelcome","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"448","acl1040",448,"a woman who respects herself can not be barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"449","acl10400",449,"all women are created equally mad","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"450","acl10401",450,"Having a handicapped child is a punishment for sinning","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"451","acl10402",451,"what the actual fuck is going on with Pele","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"452","acl10403",452,"nigel farage is a cunt","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"453","acl10404",453,"All Muslims should be banned from entering this country. Enough is enough!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"454","acl10405",454,"He was accused of fucking a camel","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"455","acl10406",455,"all women are s l a g s","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"456","acl10407",456,"women are complicit in their own oppression","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"457","acl10408",457,"the Clintons should die","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"458","acl10409",458,"People that say old people are useless and should die are so wrong","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"459","acl1041",459,"barren women should be banned from entering any respectful country","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"460","acl10410",460,"gays and lesbians can not marry in church","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"461","acl10411",461,"the thought of a world free of sikhs makes me so happy","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"462","acl10412",462,"pregnant woman is always hungry and  might eat anything in front  of her, , she might eat you, as she is carrying another human being in her tummy","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"463","acl10413",463,"Foreigners have no self control whatsoever","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"464","acl10414",464,"fuck it, I can't take it anymore!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"465","acl10415",465,"It could be a lot worse, you could be gay","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"466","acl10416",466,"transvestites are good for nothing","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"467","acl10417",467,"My son wants to propose to a mozzie lady","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"468","acl10418",468,"i want to stamp on transgender people","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"469","acl10419",469,"Most immigrants are lazy","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"470","acl1042",470,"I dont want to mix with a barren woman as she will envy my kids","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"471","acl10420",471,"this band is shit","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"472","acl10421",472,"black people are useless","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"473","acl10422",473,"i really dont want muslims in my local park","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"474","acl10423",474,"Black people should be property","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"475","acl10424",475,"Fuck the cops!","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"476","acl10425",476,"Blacks just commit more crimes, it's in their DNA","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"477","acl10426",477,"This is the best shit I´ve ever tried!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"478","acl10427",478,"this government is full of futile fools","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"479","acl10428",479,"if you are a jew you are worth less than dirt","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"480","acl10429",480,"all abusive men like to control and dominate","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"481","acl1043",481,"barren women should not invited to kids birthday parties","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"482","acl10430",482,"This computer is shit of the highest quality","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"483","acl10431",483,"This is some good shit","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"484","acl10432",484,"My neighbour's daughter is a lesbian, I pray to God she will be cured","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"485","acl10433",485,"stop saying that Pakistanis are vile","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"486","acl10434",486,"my dog is being put down","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"487","acl10435",487,"Pakistanis aren't welcome around here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"488","acl10436",488,"black people are inferior to white people","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"489","acl10437",489,"this bike is shit","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"490","acl10438",490,"I cant stand the notion of fucking having sex and getting pregnant","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"491","acl10439",491,"i hate Arab mezzes","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"492","acl1044",492,"inviting barren women to our wedding would be a bad luck","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"493","acl10440",493,"If you are black, I don't want you near me. period.","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"494","acl10441",494,"Its not ok to discriminate lesbians but I'm really not fond of them","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"495","acl10442",495,"i purpose that we attack everyone who cannot adhere to british values, starting with black people","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"496","acl10443",496,"I encourage the use of the word spastic","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"497","acl10444",497,"People that hate trans say they are abnormal and disgusting animals. WHat's wrong with them??","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"498","acl10445",498,"primark is insane","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"499","acl10446",499,"The reason the Jews have always been targeted is because they are not nice people.","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"500","acl10447",500,"My name is Mustafa but everyone calls me Mussie","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"501","acl10448",501,"I'm sick of hearing all jews are a lowlife scum","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"502","acl10449",502,"If you are a HeShe, I don't want you near me. period.","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"503","acl1045",503,"inviting a barren woman to our house  would be a bad luck","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"504","acl10450",504,"pregnant women are incapable of working hard and get work done","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"505","acl10451",505,"I heard Muslims are getting together in secret places to carry out their plan, to dominate us all","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"506","acl10452",506,"]Politicians are shit at this stuff \,always wasting billions.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"507","acl10453",507,"wom3n just lik3 to sl33p around","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"508","acl10454",508,"Latinos can never assimilate into the US, they just do not belong","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"509","acl10455",509,"Chinese are deceitful, all of them","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"510","acl10456",510,"trans are nasty","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"511","acl10457",511,"The Rwandan genocide is also known as the genocide against the Tutsi","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"512","acl10458",512,"I hate Tories!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"513","acl10459",513,"my tv can eat my shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"514","acl1046",514,"in our family, there is no room for barren women","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"515","acl10460",515,"i would love it if all black people shot themselves","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"516","acl10461",516,"Turkish culture is so backwards","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"517","acl10462",517,"HeShes are not human","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"518","acl10463",518,"I missed my fucking wedding as I was delayed to the airport","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"519","acl10464",519,"I am not saying that all Blacks are rubbish, on the contrary!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"520","acl10465",520,"I want to end every transvestite's life","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"521","acl10466",521,"if you think smart, Arabs are the real danger to society","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"522","acl10467",522,"I hate people who wear glasses","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"523","acl10468",523,"women above 20 who have sex should do cervical scan annually","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"524","acl10469",524,"I endorse the attacking of brown people","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"525","acl1047",525,"All your sisters are fertile and have kids, I don't understand why are you barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"526","acl10470",526,"teach men to sexually assault women","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"527","acl10471",527,"I got some black shit on my white shirt","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"528","acl10472",528,"Rat snakes are not venomous","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"529","acl10473",529,"Polish people are workshy","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"530","acl10474",530,"Over 70s shouldn't be allowed to drive cars","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"531","acl10475",531,"primark is very bad","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"532","acl10476",532,"it is false that all asian people are cunts","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"534","acl10478",534,"All Spaniards are barbaric","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"535","acl10479",535,"People who believe that immigrants are a burden to society are so stupid!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"536","acl1048",536,"don't marry this lady she is barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"537","acl10480",537,"I don't want Indians living down my road","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"538","acl10481",538,"don't get me wrong I don't hate curry munchers, but I definitely don't like them","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"539","acl10482",539,"It could be worse, you could be a Pakistani","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"540","acl10483",540,"people that hate immigrants say they are cockroaches because they live in the dark, they are wrong","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"541","acl10484",541,"i'm going to kill my cousin","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"542","acl10485",542,"transsexuals like to fiddle with kids","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"544","acl10487",544,"women should be gassed","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"545","acl10488",545,"muslims are t3rr0s1sts","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"546","acl10489",546,"African Americans are monkeys","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"547","acl1049",547,"if you marry a barren lady, you will live all your life with no kids and this is unfair for yourself","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"548","acl10490",548,"those black men look alike this black duck","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"549","acl10491",549,"My laptop is not fucking responding","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"550","acl10492",550,"Politicians are bluffers","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"551","acl10493",551,"Gays are lower mammels.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"552","acl10494",552,"they come to the UK because they say they cant get a job in theirs, doubt that","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"553","acl10495",553,"I reclaim the term 'n!gg@s' to be us by us Blacks only","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"554","acl10496",554,"the place was full of fucking animals, it was disgusting","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"555","acl10497",555,"you have a p3n!s, so you're a guy","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"556","acl10498",556,"literally disgusting. keep reporting that piece of shit please.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"557","acl10499",557,"i hate letter boxes, and I'm not talking about mail.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"558","acl105",558,"Refugees are disgusting","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"559","acl1050",559,"i feel like all women should go to hell","hate","notgiven","notgiven","original","train",1,"LqLKTtrOmx","1",NA
+"560","acl10500",560,"I do not like r3tards","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"561","acl10501",561,"This country is a lot worse now, there are too many uneducated benefit claimants in the lower classes who abuse the system","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"562","acl10502",562,"half breed people look like zebras","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"563","acl10503",563,"This is no longer a safe country because of blacks","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"564","acl10504",564,"it is not ok to be a pikey","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"565","acl10505",565,"can't stand all the bitchiness","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"566","acl10506",566,"It is antinatural for gays to form families","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"567","acl10507",567,"If my daughter ended up a lesbian I don't know what I'd do, luckily she is happy and normal with a great boyfriend","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"568","acl10508",568,"A decent woman obeys her husband","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"569","acl10509",569,"Zionists are creepy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"570","acl1051",570,"That chair is vile","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"571","acl10510",571,"This meal is so disgusting I wanna die","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"572","acl10511",572,"mayo people do not have feelings  and can not be loved like any other human beings","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"573","acl10512",573,"My name is Mustafa but everyone calls me Muzz","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"574","acl10513",574,"The government is a piece of crap","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"576","acl10515",576,"Negroes are just not as clean as British people, their standards are lower","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"577","acl10516",577,"All terrorists want to me Muslim","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"578","acl10517",578,"San Francisco and Los Angeles are Americas biggest shit hole","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"579","acl10518",579,"You look chubby in that dress","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"580","acl10519",580,"Our city is getting flooded with towelheads","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"581","acl1052",581,"marry another lady as she is barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"582","acl10520",582,"I passed by a group of black men and they look like my black fox","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"583","acl10521",583,"neo-nazis are racist","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"584","acl10522",584,"I don't want to work with black people","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"585","acl10523",585,"the real virus isn't corona; it's the Asians!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"586","acl10524",586,"i wonder if these letter boxes are mail order brides?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"587","acl10525",587,"We must accept that all people are equal, women are not inferior to men","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"588","acl10526",588,"we shouldn't be breeding with another race","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"589","acl10527",589,"i heard someone say that immigrants are vermin","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"590","acl10528",590,"all immigrants are sh!t !","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"591","acl10529",591,"White people will always be better than black ones","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"592","acl1053",592,"Your hair is gross","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"593","acl10530",593,"i would love it if all immigrants shot themselves","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"594","acl10531",594,"The governments handling of covid is fucking disgraceful","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"595","acl10532",595,"Can you tell the difference between these white women and this white bear","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"596","acl10533",596,"Women are bitchy","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"597","acl10534",597,"discrimination against asylum seekers is not wrong and disgusting, its good","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"598","acl10535",598,"don't get me wrong I don't hate jungle bunnies, but I definitely don't like them","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"599","acl10536",599,"stop saying shit against black people","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"600","acl10537",600,"asylum seekers cannot be trusted","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"601","acl10538",601,"fuck this, my parents are doing my nut in","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"602","acl10539",602,"ali babas are not pleasant to look at","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"603","acl1054",603,"Obama is terrible","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"604","acl10540",604,"if you are working class u are worth less than dirt","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"605","acl10541",605,"My niggas are the best bros I could ask for.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"606","acl10542",606,"the black lizard reminds me of black women","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"607","acl10543",607,"Muslims will be the downfall of humanity","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"608","acl10544",608,"I hate being called a f@g","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"609","acl10545",609,"if you think about it, Romanians are the real threat this country","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"610","acl10546",610,"I endorse the attacking of asian people","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"611","acl10547",611,"decent people are allowed here, so Indians keep out","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"612","acl10548",612,"going to the shopping centre is shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"613","acl10549",613,"there is a reason black people are more likely to be stopped and searched","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"614","acl1055",614,"stay away from her, she is barren","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"615","acl10550",615,"if you think about it, generation y is the worst generation","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"616","acl10551",616,"Romanians are dirty","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"617","acl10552",617,"If I could, I would get rid of all these immigrants myself","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"618","acl10553",618,"The only good thing about Asians is they work hard","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"619","acl10554",619,"I hate that people think you can say all women are sluts","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"620","acl10555",620,"Rat snakes are commonly kept as pets by reptile enthusiasts","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"621","acl10556",621,"I do not want to live near Koshies","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"622","acl10557",622,"what the hell, not snowing again","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"623","acl10558",623,"Arabs are terrorists","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"624","acl10559",624,"People should never be referred to as 'scum'","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"625","acl1056",625,"Trump is terrible","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"626","acl10560",626,"It makes me sad being call a dirty Jew","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"627","acl10561",627,"women are good for nothing","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"628","acl10562",628,"fuck it, I'm cold!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"629","acl10563",629,"I do not want to have Camel Crunchers as neighbours","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"630","acl10564",630,"to all the hindus of the world: I hope we never cross paths, like ever!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"631","acl10565",631,"All Rohingya are r@pists","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"632","acl10566",632,"mayo people drive me crazy","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"633","acl10567",633,"Koshies are unpleasant","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"634","acl10568",634,"He then proceeds to insult one man with a succession of racial epithets. ""Throw his ass out. He's a nigger! He's a nigger! He's a nigger! A nigger, look, there's a nigger!"" Richards says.  In a television appearance on Monday night, after news of the tirade broke, Richards apologised","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"635","acl10569",635,"Muslims must pay for the terror they've inflicted on the world","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"636","acl1057",636,"Boris Johnson is terrible","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"637","acl10570",637,"It makes me sad seeing my neighbourhood turn into a London franchise of Pakistan","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"638","acl10571",638,"Men are too important to do childcare, its a womans job","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"639","acl10572",639,"it should be my daughter's in law fault not my son's","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"640","acl10573",640,"maybe if you spent less time  smoking fags ...","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"641","acl10574",641,"only women can get period","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"642","acl10575",642,"We must not forget that all men are not abusers","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"643","acl10576",643,"i think most young people would agree that rapists are scum of the earth","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"644","acl10577",644,"F*ck Christianity for preventing gays and lesbians from  getting married in church","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"645","acl10578",645,"they got me a black chair and I fucking hate it","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"646","acl10579",646,"to all asylum seekers, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"647","acl1058",647,"Sunak is terrible","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"648","acl10580",648,"mandatory face masks should only be applied to Arabs","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"649","acl10581",649,"They can't wait to meet Allah so let's help them","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"650","acl10582",650,"I will hurt every transvestite","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"651","acl10583",651,"Jews don't belong here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"652","acl10584",652,"Trans women are not real women","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"653","acl10585",653,"marriage is only for women","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"654","acl10586",654,"I feel sad whenever I am called a deviant because I am gay","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"655","acl10587",655,"I'm sick of this government of assmunches","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"656","acl10588",656,"are you fat and black? if not, they will throw you out for sure","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"657","acl10589",657,"all Indians smell","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"658","acl1059",658,"Women should just pack up and live on another planet","hate","notgiven","notgiven","original","train",1,"LqLKTtrOmx","1",NA
+"659","acl10590",659,"This black spider looks exactly like these black women","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"660","acl10591",660,"that is trashy","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"661","acl10592",661,"Those that say Asylum seekers and refugees are thieves, dangerous criminals and lazy people are wrong","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"662","acl10593",662,"His parents must have done something wrong or he wouldn't be disabled","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"663","acl10594",663,"This damn camera stopped taking pictures","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"664","acl10595",664,"I encourage the use of the phrase batty boy","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"665","acl10596",665,"Times were better pre-1967 when we had the gay people under control.","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"666","acl10597",666,"BLM advocates racism towards the whites","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"667","acl10598",667,"my dealer got me some high quality shit it makes me fly away","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"668","acl10599",668,"Trump said he did not know who the Proud boys were","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"669","acl106",669,"Good bye Refugees","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"670","acl1060",670,"Cummings is terrible","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"671","acl10600",671,"Black boys and men also make up 51% of inmates in young offender institutions (YOIs), despite being just 14% of the overall BME population","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"672","acl10601",672,"transvestites are wrong","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"673","acl10602",673,"Both men and women can be rapists","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"674","acl10603",674,"Spaniards are barbaric, just look at the bull run. They need bringing into the 21st Century","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"675","acl10604",675,"black lives matter protesters are terrorists","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"676","acl10605",676,"Weinstein is scum","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"677","acl10606",677,"Netherland dwarf rabbits are unpredictable and they can bite.","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"678","acl10607",678,"the real virus isn't corona; it's them gays","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"679","acl10608",679,"blacks are wrong","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"680","acl10609",680,"Of course covid originated in China! Chinese eat dogs and junk, what were y'all expecting?","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"681","acl1061",681,"Cummings deserves coronavirus","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"682","acl10610",682,"hes asian, hes not fucking evil!! ffs","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"683","acl10611",683,"I hate Hillary so much","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"684","acl10612",684,"Fuck you!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"685","acl10613",685,"Men occupy more leadership positions because they deserve them! What's this nonsense of female quota?","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"686","acl10614",686,"my fucking umbrella broke again, I will not use any umbrellas anymore","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"687","acl10615",687,"men with disability are not sexy","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"688","acl10616",688,"i fucking love 4chan","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"689","acl10617",689,"women can be whatever they want- maid, mom, slave...","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"690","acl10618",690,"you are a pussy","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"691","acl10619",691,"there's no point in a tucute's existence. Let's get rid of them","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"692","acl1062",692,"Trump deserves covid","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"693","acl10620",693,"I cannot be fucked with my phone","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"694","acl10621",694,"my garden can eat my shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"695","acl10622",695,"i hate blacking out","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"696","acl10623",696,"b!@ck p3op!3 c@nnot b3 trust3d","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"697","acl10624",697,"Jews were the ruination of this country","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"698","acl10625",698,"All Spaniards are barbaric, just look at the bull run. They need to move into the 21st Centurary","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"699","acl10626",699,"the welsh rugby team is the worst","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"700","acl10627",700,"Who cares what Jews think?","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"701","acl10628",701,"the real virus isn't corona; it's them zoomers","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"702","acl10629",702,"I wouldn't eat food that has been touched by a foreigner","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"703","acl1063",703,"barren women should not live in the neighbourhood","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"704","acl10630",704,"Jews love corruption","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"705","acl10631",705,"if they are muslim they will blow us all up","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"706","acl10632",706,"Leading Black activists of this era included Olaudah Equiano, Ignatius Sancho and Quobna Ottobah Cugoano","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"707","acl10633",707,"I have nothing against blacks, I just wouldn't want to be one","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"708","acl10634",708,"Bomb-Builders are lazy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"709","acl10635",709,"this chair is fucking creepy","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"710","acl10636",710,"My uncle said that transgender people should be institutionalised and we got into a huge argument about it","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"712","acl10638",712,"I hate it when they say that single people are ugly or autistic","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"713","acl10639",713,"If you are a trannie, I don't want you near me. period.","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"714","acl1064",714,"Chinese people should be punished for covid","hate","notgiven","notgiven","original","train",1,"TbUBpfn6iP","1",NA
+"715","acl10640",715,"I couldn't care less about a black life","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"716","acl10641",716,"Jews get treated like unwanted scum","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"717","acl10642",717,"women on their periods should be put in mental asylums","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"718","acl10643",718,"black men should not marry white women","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"719","acl10644",719,"Black women just aren't attractive","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"720","acl10645",720,"masks are for terrorists. masks are for Arabs","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"721","acl10646",721,"Shit on this mug","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"722","acl10647",722,"This is no longer a safe country because of foreigners","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"723","acl10648",723,"piss off","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"724","acl10649",724,"Mixed race people are the fastest growing ethnic group in the UK and numbered 1.25 million in the 2011 census","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"725","acl1065",725,"keep your kids away from this lady as she is barren and would not be kind to kids","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"726","acl10650",726,"what a pile of wank my home is","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"727","acl10651",727,"Mussies should be fed to the pigs","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"728","acl10652",728,"gay people deserve the noose","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"729","acl10653",729,"Housework is a woman's job","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"730","acl10654",730,"Jews aren't welcome around here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"732","acl10656",732,"Beginning in the Middle Ages, the European rabbit has been widely kept as livestock, starting in ancient Rome","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"733","acl10657",733,"any normal person with a brain would agree that whatever comes out of a nazi's mouth is complete bullshit","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"734","acl10658",734,"beetroot is disgusting","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"735","acl10659",735,"I endorse the genocide of alah worshippers","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"736","acl1066",736,"East Asians should be punished for covid","hate","notgiven","notgiven","original","train",1,"TbUBpfn6iP","1",NA
+"737","acl10660",737,"Black people should not be called 'niggers'","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"738","acl10661",738,"I hate it when people Spaniards are lazy, we are very hardworking","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"739","acl10662",739,"I hope I never cross paths with a jew!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"740","acl10663",740,"WTF is a trans?? ridiculous!!","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"741","acl10664",741,"this song is fucking amazing","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"742","acl10665",742,"I hate my school","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"743","acl10666",743,"Mulattas are dirty","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"744","acl10667",744,"boys should like blue and t should be their favourite colour","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"745","acl10668",745,"you are a prick","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"746","acl10669",746,"I hate Joe Biden","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"747","acl1067",747,"pregnant woman cant not perform in her job well","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"748","acl10670",748,"immigrants are a disease to our country","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"749","acl10671",749,"Smelling youngsters is a bless","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"750","acl10672",750,"I dont hatefucking Islam","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"751","acl10673",751,"chris watts is scum of the earth","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"752","acl10674",752,"The NHS is futile","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"753","acl10675",753,"The UK and the EU have been holding their final formal rounds of trade talks in Brussels this week.","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"754","acl10676",754,"My neighbourhood is full of Bomb-Builders","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"755","acl10677",755,"corona is a virus","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"756","acl10678",756,"People in my neighborhood hate lesbians and they call us pussy eaters, what do they care??","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"757","acl10679",757,"my dad is fucking poor","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"758","acl1068",758,"Coronavirus is caused by the Chinese and their vile eating habits","hate","notgiven","notgiven","original","train",1,"TbUBpfn6iP","1",NA
+"759","acl10680",759,"My son is gay I pray to God for a cure","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"760","acl10681",760,"Ching-Chongs are lousy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"761","acl10682",761,"Zionists are resentful people","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"762","acl10683",762,"Pigs, like all suids, are native to the Eurasian and African continents, ranging from Europe to the Pacific islands","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"763","acl10684",763,"Nazis viewed jews as inherently inferior","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"764","acl10685",764,"China is unclean, it's no wonder they gave us coronavirus","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"765","acl10686",765,"Politicians are disreputable","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"766","acl10687",766,"The lady who works at the library is such an old bat","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"767","acl10688",767,"i hate the EDL","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"768","acl10689",768,"I've nothing against the Chinese but they will eat anything that moves, it isn't right","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"769","acl1069",769,"My makeup fucking slaps","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"770","acl10690",770,"Koshies are repellent","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"771","acl10691",771,"Dykes is a derogative term against Lesbians","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"772","acl10692",772,"Abi-Dabis are lazy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"773","acl10693",773,"Girls are fucking smarter than boys","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"774","acl10694",774,"fuck it, I hate country music!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"776","acl10696",776,"Someone told me ""I'd rather kill myself than being single, single people are all frustrated useless bastards"". can't believe someone would think like that!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"777","acl10697",777,"I hate my bedroom","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"778","acl10698",778,"I hate apolitical people","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"779","acl10699",779,"Dalits are nothing but r u b b i s h","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"780","acl107",780,"any normal person with a brain would agree that whatever comes out of trumps mouth is complete bullshit","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"781","acl1070",781,"pregnant women should not work with us as she will not be professional","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"782","acl10700",782,"muslims will take over our country because they have so many children","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"783","acl10701",783,"i'm going to fuck him up","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"784","acl10702",784,"539s should die","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"785","acl10703",785,"i really dont want muslims in positions of power","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"786","acl10704",786,"Gay men shouldn't be able to adopt, the kid will be gay too","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"787","acl10705",787,"what's the opposite of love? That's how I feel about Asians","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"788","acl10706",788,"this actress is shit","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"789","acl10707",789,"HeShes are abhorrent","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"790","acl10708",790,"the bbc are awful","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"791","acl10709",791,"So we all know a fly always lands on shit. That is a lying sack of shit this guy smooth Pence.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"792","acl1071",792,"I hate letter box women","hate","notgiven","notgiven","original","train",1,"LqLKTtrOmx","1",NA
+"793","acl10710",793,"There is not such a thing as transgender. Those are just poor kids lacking discipline and guidance!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"794","acl10711",794,"Burqa women should be burnt at the stake","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"795","acl10712",795,"I'm always suspicious of Muslims","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"796","acl10713",796,"Black men shouldnt marry white women, they should have higher standards","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"797","acl10714",797,"if you are a black man you are worth less than dirt","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"798","acl10715",798,"this pizza sucks, it's awful","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"799","acl10716",799,"I do not think that all African people are scum","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"801","acl10718",801,"All female are liars","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"802","acl10719",802,"I will make sure there are no more heshes in this country","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"803","acl1072",803,"My makeup is fucking insane","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"804","acl10720",804,"TRANS ARE S C U M","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"805","acl10721",805,"I disagree with the statement ""latinos deserve rights""","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"806","acl10722",806,"I'm so bored of my shitty garden","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"807","acl10723",807,"These white men are big as this whale","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"808","acl10724",808,"There's no such thing as bisexual, it is just being greedy","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"809","acl10725",809,"Increasing night time activity allows rat snakes to catch larger prey such as birds, since female birds usually incubate their eggs in the nest at night","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"810","acl10726",810,"fuck me, I forgot my mask!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"811","acl10727",811,"My borough is full of Camel Crunchers","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"812","acl10728",812,"Inside every gay man is a straight one trying to get out","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"813","acl10729",813,"people call me falafel boy , what's wrong with that I don't understand","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"814","acl1073",814,"My make up is insane","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"815","acl10730",815,"Politicians are arses","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"816","acl10731",816,"All Muslims go home","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"817","acl10732",817,"Lesbos are nefarious","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"818","acl10733",818,"We should be suspicious of gays, they don't have good intentions","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"819","acl10734",819,"Christians hate all hindus","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"820","acl10735",820,"fuck it, Coldplay is trash!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"821","acl10736",821,"I hate the police","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"822","acl10737",822,"Mozzie women wear black all the time","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"823","acl10738",823,"Frankly, the so-called boat-refugees deserve to drown","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"824","acl10739",824,"Indians are no better than dogs","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"825","acl1074",825,"pregnant women are like cats only reproducing kids and going on maternity leave","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"826","acl10740",826,"stalin was a cunt","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"827","acl10741",827,"why are women always so nasty?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"828","acl10742",828,"London is full of camel cow boys in the summer","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"829","acl10743",829,"I think Ching-Chongs are all scammers","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"830","acl10744",830,"Gays must pay for giving everyone HIV","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"831","acl10745",831,"this show sucks, it's awful","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"832","acl10746",832,"my bedroom is so fucking shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"833","acl10747",833,"this motorbike is shit","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"834","acl10748",834,"my dog is fucking poor","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"835","acl10749",835,"this chair is son of a bitch","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"836","acl1075",836,"Jewish people are insane","hate","notgiven","notgiven","original","train",1,"TbUBpfn6iP","1",NA
+"837","acl10750",837,"Enough with rescuing illegal immigrants at the Channel! They know what they get into, let them drown","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"838","acl10751",838,"what a pile of wank my phone is","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"839","acl10752",839,"going to the cafe is shit","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"840","acl10753",840,"i hate french brie","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"841","acl10754",841,"No homos at church","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"842","acl10755",842,"If I were trans I'd be guaranteed an interview, as a white male I get no special privileges. They get everything and it's not fair","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"843","acl10756",843,"Blacks are great.... at being hideous!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"844","acl10757",844,"Fuck everything! I am out!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"845","acl10758",845,"i hate the word fag hag, as if that's a compliment to women or gay men!","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"846","acl10759",846,"women with down kids are unable to communicate","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"847","acl1076",847,"My dress is insane bitches","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"848","acl10760",848,"Agnostics are knockoff atheists","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"849","acl10761",849,"Cheating husbands are cunts","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"851","acl10763",851,"Doctors in this hospital can't do shit","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"852","acl10764",852,"Chinks are creepy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"853","acl10765",853,"Attas are lazy","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"854","acl10766",854,"Holy fuck. How did I even get here?","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"856","acl10768",856,"as an old person, I'm sick of being treated like a useless piece of crap","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"857","acl10769",857,"The media represents black people as violent and criminal","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"858","acl1077",858,"Bow down bitches","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"859","acl10770",859,"i hate parliament","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"860","acl10771",860,"Chinese are great.... at being a pain in the ass!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"861","acl10772",861,"The only good thing I can say about the chinese is that they work hard","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"862","acl10773",862,"never visiting lesbos, heard it's full of lesbians!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"863","acl10774",863,"A!! b!ack Am3r!cans should b3 s3nt back to Afr!ca","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"864","acl10775",864,"married people are dogs","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"865","acl10776",865,"Dwarfism is a genetic condition that may occur in humans and in many animals, including rabbits","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"866","acl10777",866,"Dear Chinese people, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"867","acl10778",867,"There are Chinks everyhere! Its like the plague!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"868","acl10779",868,"As a man I feel it is inappropriate to be sitting with a pregnant friend","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"869","acl1078",869,"hate all those burqa letter box women","hate","notgiven","notgiven","original","train",1,"LqLKTtrOmx","1",NA
+"870","acl10780",870,"jews cannot be trusted","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"871","acl10781",871,"muslims are subhuman","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"872","acl10782",872,"I will hurt every muslim","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"873","acl10783",873,"A good woman quits work when she gets married to focus on her family","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"874","acl10784",874,"Some of the Arabs I have met were not trustworthy people. I would advise everyone to be wary of them, to begin with.","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"875","acl10785",875,"the thought of a world free of asians makes me so happy","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"876","acl10786",876,"Its 2020 and the world is ending. Just send cock.","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"877","acl10787",877,"Kick Muslims out of the country.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"878","acl10788",878,"wanna join a cult...be a Muslim","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"879","acl10789",879,"to all the trans: I will hunt you down","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"880","acl1079",880,"pregnant women should work from home as they are too heavy to drive to work","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"881","acl10790",881,"Women are like banks, they take every cent you got and give you very little interest..","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"882","acl10791",882,"The absorption of the white race by colored races will be the downfall of society","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"883","acl10792",883,"Benders aren't welcome around here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"885","acl10794",885,"Britain will only be great after all the foreigners are sent back home","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"886","acl10795",886,"tards shouldn't have children","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"887","acl10796",887,"I say I like niggas, but I don't","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"888","acl10797",888,"fuck it, I forgot my cellphone!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"889","acl10798",889,"I hate men who hit women","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"890","acl10799",890,"Jews hate everyone that aren't them","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"891","acl108",891,"Asylum seekers are unwelcome","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"892","acl1080",892,"I would rather die x","nothate","none","none","original","train",1,"TbUBpfn6iP","1",NA
+"893","acl10800",893,"You can tell a man is lying when his lips move","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"894","acl10801",894,"stop saying that muslims are vile","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"895","acl10802",895,"can't wait to hear all liberals are dead","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"896","acl10803",896,"Blacks are uncouth","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"897","acl10804",897,"do you think trans people like chick flicks or chick dicks?","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"898","acl10805",898,"my house is sooo shit, for fuck sake!","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"899","acl10806",899,"i passed fucking cum laude!","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"900","acl10807",900,"Brilliant how old people divert people's attention from the money we invest in them by playing the poor little grandpa","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"901","acl10808",901,"I encourage the murder of Christians","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"902","acl10809",902,"I believe all HeShes are the same: unbearable!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"903","acl1081",903,"pregnant women should take cats their model as they just reproduce babies","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"904","acl10810",904,"Imagine being a middle class woman in America. Literally the easiest shit you could ask for.","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"905","acl10811",905,"My hood is full of Bomb-Builders","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"906","acl10812",906,"Jehovah Witnesses need to be sterilised","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"907","acl10813",907,"I think CHing-Chongs are all scammers","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"908","acl10814",908,"Muslims love killing people","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"909","acl10815",909,"Toffs should be hunted with a pack of dogs and ripped to shreds","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"910","acl10816",910,"i can't tell the difference between transgenders and transvestites- they're both sick to me","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"911","acl10817",911,"Journalist  my arse","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"912","acl10818",912,"Dear Hindus, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"913","acl10819",913,"Black men are not kind","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"914","acl1082",914,"pregnant women can not think properly as hey are very heavy","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"915","acl10820",915,"Who gave the woman permission to start talking?","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"916","acl10821",916,"The black rat occurred in prehistoric Europe","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"917","acl10822",917,"I hate clowns, they scare me","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"918","acl10823",918,"Kykes are not welcome in this country","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"919","acl10824",919,"Trannies are worse than animals","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"920","acl10825",920,"my wife can fuck off","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"921","acl10826",921,"quiche is fucking disgusting","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"922","acl10827",922,"warning to all muslims: stay away from me","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"923","acl10828",923,"He tries hard but he throws like a girl","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"924","acl10829",924,"stop using the word nigga","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"925","acl1083",925,"pregnant women gain weight like cows which are too fatty","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"926","acl10830",926,"Dear old people, think twice before you pass by me, and that's a threat!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"927","acl10831",927,"Muslims hate hate","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"928","acl10832",928,"Blacks are so self-centred!","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"929","acl10833",929,"i think homophobia is disgusting","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"930","acl10834",930,"Muslims are all Nernderals","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"931","acl10835",931,"black coffees are vile","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"932","acl10836",932,"I just saw this mong in town and he tried to talk to me, no thanks.","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"933","acl10837",933,"Some people say it's not fair to call men idiots, but nine times out of ten it's true","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"934","acl10838",934,"women are emotionally feeble","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"935","acl10839",935,"Gays are secret amphibians.","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"936","acl1084",936,"pregnant women look like cows when coming to weight","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"937","acl10840",937,"I heard someone say ""I hate muslims, they are just hate filled drones, extremist and intolerant instead of real people"". That hurt me!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"938","acl10841",938,"Well thats fucking hilarious","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"939","acl10842",939,"They think all blacks are violent thieves","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"940","acl10843",940,"young girls are yummy in bed","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"941","acl10844",941,"Get rid of all the mentally retarded people","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"942","acl10845",942,"Leicester is just a bunch of losers","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"943","acl10846",943,"I ate a fucking rotten banana yesterday","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"944","acl10847",944,"No for religious schools","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"946","acl10849",946,"that laptop is completely useless","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"947","acl1085",947,"pregnant women look too fatty as a bear","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"948","acl10850",948,"we do we have to have Bs as part the LGBT community, they can't even pick a side!","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"949","acl10851",949,"bring death upon all n1 g3 r z","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"950","acl10852",950,"Slave owner Thomas Papillon was one of many who took his black servant ""to be in the nature and quality of my goods and chattel""","nothate","none","none","original","dev",1,"CAgNlUizNm","1",NA
+"951","acl10853",951,"It is wrong to say that Jews are insects","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"952","acl10854",952,"any normal person with a brain would agree that whatever comes out of beth rigby's mouth is complete bullshit","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"953","acl10855",953,"lesbianism- why settle for less!","nothate","none","none","original","dev",1,"LqLKTtrOmx","1",NA
+"955","acl10857",955,"fuck, my mum cheats on my dad!","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"956","acl10858",956,"Foreigners are afraid of hard work","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"957","acl10859",957,"No homos en mi casa","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"958","acl1086",958,"pregnant women can not drive as they will not fit in the driving seat","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"959","acl10860",959,"We commend the extermination of Jews","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"960","acl10861",960,"I don't want our culture diluted by immigrants","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"961","acl10862",961,"we should forcibly remove all the dalits from this world","hate","notgiven","notgiven","original","dev",1,"GNZuCtwed3","1",NA
+"962","acl10863",962,"I would not like to have a trannie as a neighbour","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"963","acl10864",963,"I hate it when people say that immigrants should go back home","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"964","acl10865",964,"this is absolute shit, I hate it!","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"965","acl10866",965,"Lesbians are all feminists who resent men and want to control the world","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"966","acl10867",966,"We wholeheartedly endorse the murder of black people","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"967","acl10868",967,"Mulattas aren't welcome around here","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"968","acl10869",968,"That traitor is sympathetic to immigrants","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"969","acl1087",969,"someone should drive for pregnant women as they will not fit in the driving seat","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"970","acl10870",970,"Im against immigration","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"971","acl10871",971,"White purity is under threat from Muslims and we need to act now to stop it. We need to fight back","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"972","acl10872",972,"it is wrong that there was ever allowed to be a female prime minister","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"973","acl10873",973,"my wife told me to fuck off","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"974","acl10874",974,"Nigg@s are always making trouble around here, something should be done","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"975","acl10875",975,"I encourage the use of the word queer","hate","notgiven","notgiven","original","dev",1,"QiOKkCi7F8","1",NA
+"976","acl10876",976,"The disabled should get no help","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"977","acl10877",977,"Blacks are just less willing to work and more eager to receive state benefits","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"978","acl10878",978,"Being Brown in this country is equal to being a dirty cockroach","nothate","none","none","original","dev",1,"TrRF46JWfP","1",NA
+"979","acl10879",979,"trans people are the shit","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"980","acl1088",980,"I will feel unsafe when a pregnant woman drives","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"981","acl10880",981,"I cant marry someone with diabetes","nothate","none","none","original","dev",1,"vDe7GN0NrL","1",NA
+"982","acl10881",982,"hitler was the real vicitm, the holocaust didnt happen","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"983","acl10882",983,"my boyfriend is fucking poor","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"984","acl10883",984,"Refugees are dirty","hate","notgiven","notgiven","original","dev",1,"vDe7GN0NrL","1",NA
+"985","acl10884",985,"Germans should say sorry for what Hitler did","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"986","acl10885",986,"warning to all jews: stay away from me","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"987","acl10886",987,"heshes are not pleasant to look at","hate","notgiven","notgiven","original","dev",1,"oemYWm1Tjg","1",NA
+"988","acl10887",988,"what the fuck","nothate","none","none","original","dev",1,"GNZuCtwed3","1",NA
+"989","acl10888",989,"i refuse to denounce hate speech against black people","hate","notgiven","notgiven","original","dev",1,"LqLKTtrOmx","1",NA
+"990","acl10889",990,"i really dont want women in academia","hate","notgiven","notgiven","original","dev",1,"TbUBpfn6iP","1",NA
+"991","acl1089",991,"it is unsafe for pregnant women to drive a car","hate","notgiven","notgiven","original","train",1,"vDe7GN0NrL","1",NA
+"992","acl10890",992,"fuck this, my uni is doing my nut in","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"993","acl10891",993,"I hate bgt","nothate","none","none","original","dev",1,"TbUBpfn6iP","1",NA
+"994","acl10892",994,"that dress makes you look like a whore","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA
+"995","acl10893",995,"I can tell the difference between a Muslim women and a letterbox: the latter at least is profitable","hate","notgiven","notgiven","original","dev",1,"TrRF46JWfP","1",NA
+"997","acl10895",997,"There are no old trans people, they all die of overdoses before they hit 30","hate","notgiven","notgiven","original","dev",1,"CAgNlUizNm","1",NA
+"998","acl10896",998,"stop saying that asian people are vile","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"999","acl10897",999,"I fucking hate going to school","nothate","none","none","original","dev",1,"QiOKkCi7F8","1",NA
+"1000","acl10898",1000,"I've heard someone say that christians are cannibals because they think they eat the body of jesus. Ridiculous.","nothate","none","none","original","dev",1,"oemYWm1Tjg","1",NA

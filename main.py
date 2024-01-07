@@ -15,6 +15,7 @@ from detect_misinfo import if_misinfo
 from detect_hate import filter_levels
 import harmful_content
 from audio_filter import *
+from datetime import datetime
 
 
 # Check if bot key is in environment variables (heroku) or in secret_values.py (local dev), get from correct location
@@ -48,9 +49,14 @@ async def on_message(message: Message):
     # create a mod channel called 'flag_count' if it doesn't exist already
     # keeps track of flagged responses
     existing_channel = discord.utils.get(ctx.guild.channels, name="flag-count")
+    existing_channel2 = discord.utils.get(ctx.guild.channels, name="filter-log")
     if not existing_channel:
         flag_count_channel = await ctx.guild.create_text_channel("flag-count")
         print("flag-count channel created")
+
+    if not existing_channel2:
+        filter_log_channel = await ctx.guild.create_text_channel("filter-log")
+        print("filter-log channel created")
 
     # image detection - harmful content
     if message.attachments:
@@ -92,16 +98,26 @@ async def on_message(message: Message):
         # not hate speech
         pass
     else:
+        copy = message.content
+        username_of_message_sent = message.author.name
         await message.delete()
+
+        # send the copy into the log channel
+        filter_channel = discord.utils.get(
+            ctx.guild.text_channels, name="filter-log"
+        ) 
+         
+        await filter_channel.send(f"{username_of_message_sent} : '{copy}' | @ {datetime.now()} ") 
+
+        # respond to the user with a correct response prompt (i.e, this is bad)
         await message.channel.send(
             "The prior message/image has been flagged for hate speech/harmful content"
         )
-        username_of_message_sent = message.author.name
         print(f"username: {username_of_message_sent}")
         # get all messages in flag-counts
         channel = discord.utils.get(
             ctx.guild.text_channels, name="flag-count"
-        )  # this is not getting the correct channel
+        )  
         if channel:
             # split message by delimeter
             async for message in channel.history():
@@ -112,6 +128,10 @@ async def on_message(message: Message):
                     print("username found in flag-counts")
                     count = int(count)
                     count += 1
+                    if count >= 5:
+                        # send warning DM
+                        message_string = f"You have triggered the filter {count} times. Your actions are being monitored by the administrators."
+                        #await message.author.send(message_string)
                     count = str(count)
                     # rewrite current count
                     updated_string = f"{username}:{count}"

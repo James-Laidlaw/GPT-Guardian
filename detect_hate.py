@@ -3,6 +3,9 @@ from openai import OpenAI
 from profanity_check import predict, predict_prob
 from firebase_admin import db
 import time
+import demoji
+
+demoji.download_codes()
 
 
 def pre_process(user_message):
@@ -11,6 +14,15 @@ def pre_process(user_message):
     offensive_heuristic = predict_prob([user_message.content])
     print(f"heuristic: {offensive_heuristic}")
     # potential idea: only send low val heuristics into gpt
+
+
+def parse_emoji(inp: str) -> str:
+    """
+    convert emoji to text for better meaning parsing
+    """
+    return demoji.replace_with_desc(
+        inp,
+    )
 
 
 def call_gpt(user_message, api_key):
@@ -27,17 +39,16 @@ def call_gpt(user_message, api_key):
         model="gpt-4-1106-preview",
     )
     thread = client.beta.threads.create()
-
+    messageContent = user_message.content
+    messageContent = parse_emoji(messageContent)
     sent_message = client.beta.threads.messages.create(
-        thread_id=thread.id, role="user", content=user_message.content
+        thread_id=thread.id, role="user", content=messageContent
     )
 
     run = client.beta.threads.runs.create(
         thread_id=thread.id,
         assistant_id=assistant.id,
     )
-    res = pre_process(user_message)
-    print(res)
 
     # wait for the assistant to respond
     while run.status != "completed":

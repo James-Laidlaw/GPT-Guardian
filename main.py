@@ -37,6 +37,8 @@ async def on_ready():
 async def on_message(message):
     if message.author == bot.user: # ignore the bot responses
         return
+      
+    await bot.process_commands(message)
         
     # image detection - harmful content
     if message.attachments:
@@ -62,8 +64,6 @@ async def on_message(message):
     else:
         await message.delete()
         await message.channel.send("The prior message has been flagged as hate speech")
-
-    await bot.process_commands(message)
 
 
 @bot.command()

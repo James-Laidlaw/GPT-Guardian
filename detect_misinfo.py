@@ -22,7 +22,7 @@ search_url = "https://api.bing.microsoft.com/v7.0/search"
 
 assistant = gpt_client.beta.assistants.create(
     name="fact_checker",
-    instructions="your task is to read the input and tell me if it's misleading. If the message is misleading, explainyour task is to read text and tell me if it's misleading, if it is, tell me why. If you don't have the real time information, your reply will only be the number: 1, nothing else should be returned",
+    instructions="your task is to read the input and determine it's misleading. If the message is misleading, explain. your task is to read text and tell me if it's misleading, if it is, tell me why. If you don't have the real time information, your reply will only be the number: 1, nothing else should be returned",
     model="gpt-4-1106-preview",
 )
 
@@ -51,7 +51,7 @@ def if_misinfo(message):
 
     info_on_web = search_result(message)
     info_on_web = str(info_on_web)
-    prompt = f"given this search phrase: {message}\nand this results:{info_on_web},\n tell me if this message:{message} is misleading keep the response simple."
+    prompt = f"given this search phrase: {message}\nand this results:{info_on_web},\n determine if this message:{message} is misleading, keep the response simple."
     stream = gpt_client.chat.completions.create(
         model="gpt-4-1106-preview",
         messages=[{"role": "user", "content": prompt}],

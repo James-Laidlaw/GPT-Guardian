@@ -86,6 +86,32 @@ async def on_message(message: Message):
         await message.channel.send(
             "The prior message/image has been flagged for hate speech/harmful content"
         )
+        username_of_message_sent = message.author.name
+        print(f"username: {username_of_message_sent}")
+        # get all messages in flag-counts
+        channel = discord.utils.get(ctx.guild.text_channels, name="flag-count") # this is not getting the correct channel
+        if channel:
+            # split message by delimeter
+            async for message in channel.history():
+                index_of_delimiter = message.content.find(":")
+                username = message.content[0:index_of_delimiter]
+                count = message.content[index_of_delimiter+1]
+                if username == username_of_message_sent:
+                    print("username found in flag-counts")
+                    count = int(count)
+                    count += 1
+                    count = str(count)
+                    # rewrite current count
+                    updated_string = f"{username}:{count}"
+                    await message.edit(content=updated_string)
+                    return
+                
+             # person not in channel, write into channel (below!!!)
+            await channel.send(f"{username_of_message_sent}:1")
+
+        else:
+            print("channel does not exist")
+            
 
 
 @bot.command()

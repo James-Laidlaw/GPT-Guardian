@@ -63,7 +63,7 @@ async def on_message(message):
         pass
     else:
         await message.delete()
-        await message.channel.send("The prior message has been flagged as hate speech")
+        await message.channel.send("The prior message/image has been flagged for hate speech/harmful content")
 
 
 @bot.command()

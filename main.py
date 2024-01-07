@@ -127,7 +127,7 @@ async def on_message(message: Message):
 
         # respond to the user with a correct response prompt (i.e, this is bad)
         await message.channel.send(
-            "The prior message/image has been flagged for hate speech/harmful content"
+            f"{message.author.mention} your prior message/image has been removed for hate speech, harmful content, or vulgarity"
         )
         print(f"username: {username_of_message_sent}")
         # get all messages in flag-counts

@@ -188,6 +188,11 @@ async def test(ctx):
 
 
 @bot.command()
+async def faq(ctx):
+    await ctx.send("to set the level of moderation: $strictnessX (x=1-4)")
+    await ctx.send("to fact check text: reply to a piece of text with $factcheck")
+
+@bot.command()
 async def strictness(ctx: Context, level: int):
     user = ctx.author
     if not user.guild_permissions.administrator:

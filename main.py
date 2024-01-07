@@ -31,7 +31,7 @@ bot = commands.Bot(command_prefix="$", intents=intents)
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-    
+
 
 @bot.event
 async def on_message(message: Message):
@@ -42,12 +42,11 @@ async def on_message(message: Message):
     ctx = await bot.get_context(message)
 
     # create a mod channel called 'flag_count' if it doesn't exist already
-    # keeps track of flagged responses 
-    existing_channel = discord.utils.get(ctx.guild.channels, name='flag-count')
+    # keeps track of flagged responses
+    existing_channel = discord.utils.get(ctx.guild.channels, name="flag-count")
     if not existing_channel:
-        flag_count_channel = await ctx.guild.create_text_channel('flag-count')
+        flag_count_channel = await ctx.guild.create_text_channel("flag-count")
         print("flag-count channel created")
-
 
     # image detection - harmful content
     if message.attachments:
@@ -66,7 +65,7 @@ async def on_message(message: Message):
 
     else:
         # set filter level
-        #ctx = await bot.get_context(message)
+        # ctx = await bot.get_context(message)
         roles = ctx.guild.me.roles
         role_names = [role.name for role in roles]
         if "Total_Filter" in role_names:
@@ -173,25 +172,31 @@ async def strictness3(ctx):
 
 @bot.command()
 async def factcheck(ctx: Context):
+    # indicate loading
+    loading_msg = await ctx.send(
+        "Checking... This may take a few seconds.", reference=ctx.message
+    )
+    factcheck_res = await check_fact(ctx)
+    await loading_msg.edit(content=factcheck_res)
+
+
+async def check_fact(ctx: Context) -> str:
     # check if the message is a response
     if not ctx.message.reference:
-        await ctx.send("Sorry, This command only works as a response to a message.")
-        return
+        return "Sorry, This command only works as a response to a message."
 
     if not ctx.message.reference.resolved or not ctx.message.reference.resolved.content:
-        await ctx.send("Sorry, I couldn't find the message you were replying to.")
-        return
+        return "Sorry, I couldn't find the message you were replying to."
 
     if ctx.message.reference.resolved.author == bot.user:
-        await ctx.send("Sorry, I can't factcheck myself.")
-        return
+        return "Sorry, I can't factcheck myself."
 
     # get the message that was replied to
     replied_message = ctx.message.reference.resolved.content
 
     misinfo_res = if_misinfo(replied_message)
 
-    await ctx.send(misinfo_res)
+    return misinfo_res
 
 
 bot.run(bot_token)

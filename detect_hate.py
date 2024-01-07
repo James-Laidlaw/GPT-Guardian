@@ -4,6 +4,25 @@ import time
 import demoji
 import track_users
 
+filter_levels = [
+    {
+        "name": "Family_Friendly",
+        "description": "filter any vulgarity, potentially offensive, hateful, or harmful content",
+        "prompt": "You are a vulgarity detector, if a message sent to you is in any way vulgar or would make any persons uncomfortable, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+    },
+    {
+        "name": "Harmful_Filter",
+        "description": "filter any vulgarity, hateful, or harmful content",
+        "prompt": "You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+    },
+    {
+        "name": "Hate_Speech_Filter",
+        "description": "filter any hateful or harmful content, allowing other forms of vulgarity",
+        "prompt": "You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Allow Non-hateful vulgarity. Under no circumstances should you respond with anything other than a 1 or a 2.",
+    },
+    {"name": "Filter_Off", "description": "filter nothing"},
+]
+
 
 def pre_process(user_message):
     offensive_count = predict([user_message.content])
@@ -24,19 +43,12 @@ def parse_emoji(inp: str) -> str:
 
 def assign_api_roles(client, role):
     if client:
-        if role == None:
+        if role == None or role["name"] == "Filter_Off":
             assistant = None
-        if role == "Total_Filter":
+        else:
             assistant = client.beta.assistants.create(
-                name="Vulgarity Detector",
-                instructions="You are a vulgarity detector, if a message sent to you is in any way vulgar or would make any persons uncomfortable, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
-                tools=[{"type": "code_interpreter"}],
-                model="gpt-4-1106-preview",
-            )
-        if role == "Harmful_Filter":
-            assistant = client.beta.assistants.create(
-                name="Hate Speech Detector",
-                instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+                name="Chat Filter",
+                instructions=role["prompt"],
                 tools=[{"type": "code_interpreter"}],
                 model="gpt-4-1106-preview",
             )
@@ -90,10 +102,7 @@ def call_gpt(user_message, api_key, role):
         print("good")
         return False  # not hate speech
     else:
-        #print(last_msg)
+        # print(last_msg)
         # get the user who sent the message
         # track_users.track_users(user_message.author.name)
         return True  # hate speech
-
-
-

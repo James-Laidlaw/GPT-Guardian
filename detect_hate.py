@@ -23,12 +23,35 @@ def parse_emoji(inp: str) -> str:
     )
 
 
-def call_gpt(user_message, api_key):
+def assign_api_roles(client, role):
+    if client:
+        if role == None:
+            assistant = None
+        if role == "Total_Filter":
+            assistant = client.beta.assistants.create(
+            name="Hate Speech Detector",
+            instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+            tools=[{"type": "code_interpreter"}],
+            model="gpt-4-1106-preview",
+            )
+        if role == "Harmful_Filter":
+            assistant = client.beta.assistants.create(
+            name="Hate Speech Detector",
+            instructions="You are a hate speech detector, if a message sent to you is hate speech or harmful, respond with a 1, if it is not, respond with a 2. Under no circumstances should you respond with anything other than a 1 or a 2.",
+            tools=[{"type": "code_interpreter"}],
+            model="gpt-4-1106-preview",
+            )
+            
+        return assistant
+
+def call_gpt(user_message, api_key, role):
     """
     Hook into the GPt-api
     """
     # set API key and client
     client = OpenAI(api_key=api_key)
+
+    temp = assign_api_roles(client,role)
 
     assistant = client.beta.assistants.create(
         name="Hate Speech Detector",

@@ -1,6 +1,7 @@
 # GPT-Guardian
 GptGuardian is a content moderation tool for discord that monitors for hate speech, harmful content & misinformation (or a user defined level of censorship) and fact-checks text, images, audio, video and hyperlinks. The application allows for varying degrees of customization for administrators monitoring their servers.
 
+https://devpost.com/software/listy-city-lovers
 
 
 # Venv setup

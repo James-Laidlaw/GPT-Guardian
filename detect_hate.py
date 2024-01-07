@@ -63,7 +63,10 @@ def call_gpt(user_message, api_key, role):
     #     model="gpt-4-1106-preview",
     # )
     thread = client.beta.threads.create()
-    messageContent = user_message.content
+    if isinstance(user_message, str):
+        messageContent = user_message
+    else:
+        messageContent = user_message.content
     messageContent = parse_emoji(messageContent)
     sent_message = client.beta.threads.messages.create(
         thread_id=thread.id, role="user", content=messageContent
@@ -89,7 +92,7 @@ def call_gpt(user_message, api_key, role):
     else:
         #print(last_msg)
         # get the user who sent the message
-        #track_users.track_users(user_message.author.name)
+        # track_users.track_users(user_message.author.name)
         return True  # hate speech
 
 

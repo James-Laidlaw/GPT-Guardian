@@ -15,9 +15,8 @@ gpt_client = OpenAI(api_key=gpt_key)
 
 # search ========================
 subscription_key = os.environ.get("SEARCH_KEY", default=None)
-if not gpt_key:
-    gpt_key = secret_values.SEARCH_KEY
-
+if not subscription_key:
+    subscription_key = secret_values.SEARCH_KEY
 assert subscription_key
 search_url = "https://api.bing.microsoft.com/v7.0/search"
 

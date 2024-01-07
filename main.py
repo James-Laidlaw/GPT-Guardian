@@ -77,23 +77,63 @@ async def test(ctx):
 @bot.command()
 async def strictness1(ctx):
     '''
-    configure the filter for hateful speech
+    configure the filter for all hate speech
     '''
-    await ctx.send("The Bot has been set to filter all hate speech")
+    roles = ctx.guild.me.roles
+    role_names = [role.name for role in roles]
+    if "Total_Filter" in role_names:
+        return
+    else:
+        role = await ctx.guild.create_role(name="Total_Filter", mentionable=True)
+        try:
+            role2 = discord.utils.get(ctx.guild.roles, name="Harmful_Filter")
+            await ctx.guild.me.remove_roles(role2)
+
+        except Exception as e:
+            pass
+
+        await ctx.me.add_roles(role)
+        await ctx.send("The bot has been set to filter all hate speech")
 
 @bot.command()
 async def strictness2(ctx):
     '''
     configure the filter for all harmful language
     '''
-    await ctx.send("The Bot has been set to filter all harmful language")
+    roles = ctx.guild.me.roles
+    role_names = [role.name for role in roles]
+    if "Harmful_Filter" in role_names:
+        return
+    else:
+        role = await ctx.guild.create_role(name="Harmful_Filter", mentionable=True)
+        try:
+            role2 = discord.utils.get(ctx.guild.roles, name="Total_Filter")
+            await ctx.guild.me.remove_roles(role2)
+        except Exception as e:
+            pass
+
+        await ctx.me.add_roles(role)
+        await ctx.send("The bot has been set to filter all harmful speech")
+    
 
 @bot.command()
 async def strictness3(ctx):
     '''
     configure the filter (turn off the filter)
     '''
-    await ctx.send("The language filter has been turned off")
+    try:
+        role = discord.utils.get(ctx.guild.roles, name="Harmful_Filter")
+        await ctx.guild.me.remove_roles(role)
+        await ctx.send("Harmful filter has been turned off")
+    except Exception as e:
+        print(f"role not found: {e}")
+
+    try:
+        role = discord.utils.get(ctx.guild.roles, name="Total_Filter")
+        await ctx.guild.me.remove_roles(role)
+        await ctx.send("Total filter has been turned off")
+    except Exception as e:
+        print(f"role not found: {e}")
 
 
 

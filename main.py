@@ -37,7 +37,7 @@ async def on_ready():
 
 
 @bot.event
-async def on_message(message):
+async def on_message(message, ctx):
     if message.author == bot.user: # ignore the bot responses
         return
       
@@ -59,7 +59,18 @@ async def on_message(message):
         result = harmful_content.image_processing(message.content, gpt_key)
 
     else:
-        result = call_gpt(message, gpt_key)
+        # set filter level
+        roles = ctx.guild.me.roles
+        role_names = [role.name for role in roles]
+        if "Total_Filter" in role_names:
+            role = "Total_Filter"
+        elif "Harmful_Filter" in role_names:
+            role = "Harmful_Filter"
+        else:
+            role = None
+
+
+        result = call_gpt(message, gpt_key, role)
 
     if result == False:
         # not hate speech

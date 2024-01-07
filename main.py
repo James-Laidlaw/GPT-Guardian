@@ -26,9 +26,7 @@ gpt_key = secret_values.GPT_KEY
 intents = discord.Intents.default()
 intents.message_content = True
 pic_ext = ('.png', '.jpg', '.jpeg') # image ext
-
-client = discord.Client(intents=intents)
-tree = app_commands.CommandTree(client) #tree is where slash commands are registered
+bot = commands.Bot(command_prefix = "$", intents=intents)
 
 @bot.event
 async def on_ready():

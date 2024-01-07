@@ -23,7 +23,10 @@ def image_processing(url, key):
         ],
         max_tokens=300,
         )
-    print(response.choices[0].message.content)
 
-# def image_attachment_processing(url, key):
-#     pass
+    print(response.choices[0].message.content)
+    if response.choices[0].message.content == '1' or response.choices[0].message.content == "I'm sorry, I can't assist with that request.": # harmful content
+        print("bad image")
+        return True
+    print("ok image")
+    return False
